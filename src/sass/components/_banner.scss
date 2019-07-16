@@ -1,0 +1,58 @@
+.columns {
+
+    .bannerLeft{
+        background-color: $BannerLeft;
+        height: 100%;
+        justify-content: flex-end;
+
+        .sub {
+            color: $txtBannerColor;
+        }
+    }
+
+    .leftBtn {
+
+        border: rgba($color: #000000, $alpha: 0.3);
+        border-radius: 100%;
+        height: 50px;
+        width: 50px;
+        font-size: 26px;
+        margin-bottom: 20px;
+        background-color: rgba($color: #000000, $alpha: 0.3);
+        color: $txtBannerColor;
+
+    }
+
+    .bannerRight {
+        background-color: $BannerRight;
+        height: 100%;
+        justify-content: flex-start;
+
+        .sub {
+            color: $txtBannerColor;
+        }
+    }
+
+}
+
+
+.btnAllForum {
+    width: 70%;
+    font-size: 12px;
+    height: 38px;
+
+}
+
+
+.input {
+    padding: 0 0 8px;
+    
+    &::placeholder {
+        font-size: 12px;
+    }
+}
+
+.srchColor {
+        color: $SrchIconColor;
+        font-size: 13px;
+    }

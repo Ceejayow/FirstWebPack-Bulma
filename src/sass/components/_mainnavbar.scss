@@ -1,0 +1,19 @@
+.navbarBackColor {
+    background-color: $NavBarColorMain;
+}
+
+
+.navName {
+    margin-top: 15px;
+    color: $NavNameColor;
+    font-size: 13px;
+    border-right: 1px rgb(83, 82, 82) solid;
+    height: 20px;
+}
+
+.navNameNoBorder {
+    margin-top: 15px;
+    color: $NavNameColor;
+    font-size: 13px;
+    height: 20px;
+}
