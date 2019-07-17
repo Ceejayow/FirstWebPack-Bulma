@@ -1,0 +1,53 @@
+#footer-background {
+    background: $FooterBackgroundColor;
+
+}
+
+.footer {
+    background: $FooterBackgroundColor;
+    max-width: 900px;
+    margin: auto;
+ 
+    @media only screen and (min-width: 768px) {
+        display: flex;
+    }
+ 
+    > div {
+        background: $FooterBackgroundColor;
+        padding: 10px;
+        flex: 1;
+    }
+ }
+.subtext-footer {
+    color: $SubTextFooterColor;
+    font-size: 12px;
+    margin-bottom: 8px;
+
+    > a {
+        color: $SubTextFooterColor;
+    }
+}
+
+.btnfooter-logo {
+    border-radius: 100%;
+        height: 26px;
+        width: 26px;
+        font-size: 13px;
+        margin: 16px 5px 0 0;
+        background-color: $BtnFooterLogoColor;
+        border: $BtnFooterLogoColor;
+}
+
+.search-mail {
+    background-color: $SearchMailColor;
+    border: $SearchMailColor;
+
+    &::placeholder {
+        color: $SearchMailPlaceholderColor;
+
+    }
+
+    > i {
+        color: $SearchMailPlaceholderColor;
+    }
+}

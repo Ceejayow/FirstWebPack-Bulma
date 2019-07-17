@@ -16,11 +16,23 @@ $BannerLeft: #49c6f4;
 $BannerRight: #8648cd;
 $txtBannerColor: #fff;
 $SrchIconColor: #474343;
+$ThemesBackgroundColor: #f5f5f5;
+$FooterBackgroundColor: #222327;
+$SubTextFooterColor: #909193;
+$BtnFooterLogoColor: #767677;
+$SearchMailColor: #3a393e;
+$SearchMailPlaceholderColor: #767677;
+
+
 
 @import "~bulma/bulma";
 @import './components/header';
 @import './components/mainnavbar';
 @import './components/banner';
+@import './components/content';
+@import './components/popularthemes';
+@import './components/comments';
+@import './components/footer';
 
 body, h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
