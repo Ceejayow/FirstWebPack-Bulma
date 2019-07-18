@@ -2,10 +2,25 @@
 
     height: 100%;
     justify-content: flex-end;
+    
 }
 
 #rightcomments {
     
     height: 100%;
     justify-content: flex-start;
+
+}
+
+.btn-star {
+    color: $CommentStarColor;
+    border: none;
+    font-size: 12px;
+    margin: 0 2px 4px 0;
+
+}
+
+.subtext-comment {
+    color: $SubTextFooterColor;
+    font-size: 12px;
 }

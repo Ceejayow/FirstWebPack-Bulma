@@ -19,10 +19,10 @@
             <div class="navbar-end is-pulled-right">
                 <div class="navbar-item">
                     <div class="buttons">
-                        <a class="button is-info is-rounded btnSizeLogin">
+                        <a href="login.html" class="button is-info is-rounded" id="btnSizeLogin">
                             Login
                         </a>
-                        <a class="button is-rounded btnSizeSignUp">
+                        <a class="button is-rounded" id="btnSizeSignUp">
                             Signup
                         </a>
                     </div>
@@ -31,7 +31,7 @@
         </div>
     </nav>
 
-    <nav class="navbar  navbarBackColor" role="navigation" aria-label="dropdown navigation">
+    <nav class="navbar" id="navbarBackColor" role="navigation" aria-label="dropdown navigation">
         <div class="container">
             <span class="navbar-burger burger" data-target="navbarMenuHeroA">
                 <span></span>
@@ -40,7 +40,7 @@
             </span>
             <div id="navbarMenuHeroA" class="navbar-menu">
                 <div class="navbar-start">
-                    <a class="navbar-item navName">
+                    <a href="#" class="navbar-item navName">
                         Home
                     </a>
                     <a class="navbar-item navName">
@@ -73,12 +73,12 @@
 
     <div class="columns">
         <div class="column">
-            <div class="columns bannerLeft">
+            <div class="columns" id="bannerLeft">
                 <div class="column is-half has-text-centered">
                     <section class="hero is-medium">
                         <div class="hero-body ">
                             <div>
-                                <a class="button leftBtn">
+                                <a class="button btn-icon">
                                     <i class="fa fa-address-book"></i>
                                 </a>
                             </div>
@@ -90,7 +90,7 @@
                                     <input class="input is-rounded " type="email" placeholder="Enter your topic here">
 
                                     <span class="icon is-small is-right">
-                                        <i class="fa fa-search srchColor"></i>
+                                        <i class="fa fa-search" id="search-topic"></i>
                                     </span>
                                 </p>
                             </div>
@@ -100,19 +100,19 @@
             </div>
         </div>
         <div class="column">
-            <div class="columns bannerRight">
+            <div class="columns" id="bannerRight">
                 <div class="column is-half has-text-centered flexStart">
                     <section class="hero is-medium">
                         <div class="hero-body">
                             <div>
-                                <a class="button leftBtn">
+                                <a class="button btn-icon">
                                     <i class="fa fa-comments"></i>
                                 </a>
                             </div>
                             <p class="subtitle">
                                 <strong class="sub">Support Forum</strong>
                             </p>
-                            <a class="button is-rounded btnAllForum">
+                            <a class="button is-rounded" id="btn-forum">
                                 <strong>View All Forums</strong>
                             </a>
                         </div>
@@ -126,13 +126,19 @@
             <div class="columns is-centered">
                 <div class="column is-half has-text-centered">
                     <div class="container">
-                        <h1 class="title-services">Services we Offer</h1>
+                        <h1 id="title-services">Services we Offer</h1>
                         <img class="splatter-size" src="./img/splatter.png">
-                        <p class="subtitle is-7 has-text-grey">
-                            <i>A wonderful serenity has taken possession of my entire soul, 
-                                like these sweet mornings of spring.
-                            </i>
-                        </p>
+                        <div class="columns is-centered">
+                            <div class="column is-8 has-text-centered">
+
+                                <p class="subtitle is-7 has-text-grey">
+                                    <i>A wonderful serenity has taken possession of my entire soul, like these sweet mornings
+                                        of spring.
+                                    </i>
+                                </p>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -141,11 +147,14 @@
                     <div class="container">
                         <img class="is-rounded img-circle" src="./img/demoinstall.png">
                         <h1 class="title is-6 is-spaced">Demo installation</h1>
-                        <p class="subtitle is-7 has-text-grey">
-                            <i>A wonderful serenity has taken possession of my entire soul, 
-                                like these sweet mornings of spring.
-                            </i>
-                        </p>
+                        <div class="columns is-centered">
+                            <div class="column is-10 has-text-centered">
+                                <p class="subtitle is-7 has-text-grey">
+                                    A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.
+
+                                </p>
+                            </div>
+                        </div>
                         <a class="button is-rounded btn-getprice">
                             Get Price
                         </a>
@@ -155,11 +164,14 @@
                     <div class="container">
                         <img class="is-rounded img-circle" src="./img/themescustom.png">
                         <h1 class="title is-6 is-spaced">Theme Customizations</h1>
-                        <p class="subtitle is-7 has-text-grey">
-                            <i>A wonderful serenity has taken possession of my entire soul, 
-                                like these sweet mornings of spring.
-                            </i>
-                        </p>
+                        <div class="columns is-centered">
+                            <div class="column is-10 has-text-centered">
+                                <p class="subtitle is-7 has-text-grey">
+                                    A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.
+
+                                </p>
+                            </div>
+                        </div>
                         <a class="button is-rounded btn-getprice">
                             Get Price
                         </a>
@@ -169,11 +181,14 @@
                     <div class="container">
                         <img class="is-rounded img-circle" src="./img/migrationaopti.png">
                         <h1 class="title is-6 is-spaced">Migration and Optimization</h1>
-                        <p class="subtitle is-7 has-text-grey">
-                            <i>A wonderful serenity has taken possession of my entire soul, 
-                                like these sweet mornings of spring.
-                            </i>
-                        </p>
+                        <div class="columns is-centered">
+                            <div class="column is-10 has-text-centered">
+                                <p class="subtitle is-7 has-text-grey">
+                                    A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.
+
+                                </p>
+                            </div>
+                        </div>
                         <a class="button is-rounded btn-getprice">
                             Get Price
                         </a>
@@ -182,229 +197,256 @@
             </div>
         </div>
     </section>
-    <section class="hero content-themes">
+    <section class="hero" id="content-themes">
         <div class="hero-body">
-        <div class="container">
+            <div class="container">
                 <div class="columns is-centered">
-                        <div class="column is-half has-text-centered">
-                            <div class="container">
-                                <h1 class="title-themes">Our Popular Themes</h1>
-                                <img class="splatter-size" src="./img/splatter.png">
-                                <p class="subtitle is-7 has-text-grey">
-                                    <i>A wonderful serenity has taken possession of my entire soul, 
-                                        like these sweet mornings of spring.
-                                    </i>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="columns is-centered">
-                        <div class="column is-one-quarter has-text-centered">
-                            <div class="container">
-                                <img class="is-4by3" src="./img/blackimage.png">
-                                <h1 class="title title-sub">Digital Products Marketplace</h1>
-                                <p class="subtitle subtitle-theme">
-                                    <strong>Restored</strong> - WordPress Theme
-                                </p>
-                            </div>
-                        </div>
-                        <div class="column is-one-quarter has-text-centered">
-                            <div class="container">
-                                <img class="is-4by3" src="./img/newblackbackground.png">
-                                <h1 class="title title-sub">Online Examination Sytem</h1>
-                                <p class="subtitle subtitle-theme">
-                                    <strong>MenorahOES</strong> - PHP Scripts
-                                </p>
-                            </div>
-                        </div>
-                        <div class="column is-one-quarter has-text-centered">
-                            <div class="container">
-                                <img class="is-4by3" src="./img/blackimage.png">
-                                <h1 class="title title-sub">Complete Job Portal</h1>
-                                <p class="subtitle subtitle-theme">
-                                    <strong>MeshJobs</strong> - WordPress Theme
-                                </p>
+                    <div class="column is-half has-text-centered">
+                        <div class="container">
+                            <h1 id="title-themes">Our Popular Themes</h1>
+                            <img class="splatter-size" src="./img/splatter.png">
+                            <div class="columns is-centered">
+                                <div class="column is-8 has-text-centered">
+                                    <p class="subtitle is-7 has-text-grey">
+                                        <i>A wonderful serenity has taken possession of my entire soul, like these sweet mornings
+                                            of spring.
+                                        </i>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="columns is-centered">
+                    <div class="column is-one-quarter has-text-centered">
+                        <div class="container">
+                            <figure class="image image is-4by3">
+                                <img src="./img/blackimage.png">
+                                <a class="button is-rounded" id="btn-center">
+                                    View Demo
+                                </a>
+                            </figure>
+                            <h1 class="title title-sub">Digital Products Marketplace</h1>
+                            <p class="subtitle subtitle-theme">
+                                <strong>Restored</strong> - WordPress Theme
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-quarter has-text-centered">
+                        <div class="container">
+                            <img class="is-4by3" src="./img/newblackbackground.png">
+                            <h1 class="title title-sub">Online Examination Sytem</h1>
+                            <p class="subtitle subtitle-theme">
+                                <strong>MenorahOES</strong> - PHP Scripts
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-quarter has-text-centered">
+                        <div class="container">
+                            <img class="is-4by3" src="./img/blackimage.png">
+                            <h1 class="title title-sub">Complete Job Portal</h1>
+                            <p class="subtitle subtitle-theme">
+                                <strong>MeshJobs</strong> - WordPress Theme
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="hero" id="free-support">
-            <div class="hero-body">
-              <div class="container">
-                    <div class="columns is-centered">
-                            <div class="column is-half has-text-centered">
-                                <div class="container">
-                                    <h2 class="title is-5 has-text-white">Need FREE SUPPORT for your purchased 
-                                        theme?</h2>
-                                        <a class="button is-rounded btn-getprice">
-                                                <strong>Raise Ticket</strong>
-                                            </a>
-                                </div>
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <div class="container">
+                            <h2 class="title is-5 has-text-white">Need FREE SUPPORT for your purchased theme?
+                            </h2>
+                            <a class="button is-rounded btn-getprice">
+                                <strong>Raise Ticket</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="columns p-t-100">
+        <div class="column is-6">
+            <div class="columns" id="leftcomments">
+                <div class="column is-three-fifths">
+                    <div>
+
+                        <p class="title is-4">
+                            What Customers Says
+                        </p>
+                    </div>
+                    <div class="card m-t-40 m-b-20">
+                        <div class="card-content">
+                            <div class="content">
+                                <b class="is-size-7">"Quality of theme"</b>
+                                <br>
+                                <a class="btn-star">
+                                    <i class="fa fa-star"></i>
+                                </a>
+                                <a class="btn-star">
+                                    <i class="fa fa-star"></i>
+                                </a>
+                                <a class="btn-star">
+                                    <i class="fa fa-star"></i>
+                                </a>
+                                <a class="btn-star">
+                                    <i class="fa fa-star"></i>
+                                </a>
+                                <a class="btn-star">
+                                    <i class="fa fa-star"></i>
+                                </a>
+                                <p class="is-size-7">
+                                    <i>"A collection of textile samples lay spread out on the table - Samsa was a travelling
+                                        salesman - and a picture that he had recently cut out of an illustrated magazine
+                                        and household in a nice, gilded frame"</i>
+                                </p>
                             </div>
                         </div>
-              </div>
-            </div>
-          </section>
-          <div class="columns">
-                <div class="column">
-                    <div class="columns" id="leftcomments">
-                        <div class="column is-half has-text-centered">
-                            <section class="hero is-medium">
-                                <div class="hero-body ">
-                                    <div>
-                                        <a class="button leftBtn">
-                                            <i class="fa fa-address-book"></i>
-                                        </a>
-                                    </div>
-                                    <p class="subtitle sub">
-                                        GalicticDesk Support
-                                    </p>
-                                    <div class="field">
-                                        <p class="control has-icons-right">
-                                            <input class="input is-rounded " type="email" placeholder="Enter your topic here">
-        
-                                            <span class="icon is-small is-right">
-                                                <i class="fa fa-search srchColor"></i>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
                     </div>
-                </div>
-                <div class="column">
-                    <div class="columns" id="rightcomments">
-                        <div class="column is-half has-text-centered flexStart">
-                            <section class="hero is-medium">
-                                <div class="hero-body">
-                                    <div>
-                                        <a class="button leftBtn">
-                                            <i class="fa fa-comments"></i>
-                                        </a>
-                                    </div>
-                                    <p class="subtitle">
-                                        <strong class="sub">Support Forum</strong>
-                                    </p>
-                                    <a class="button is-rounded btnAllForum">
-                                        <strong>View All Forums</strong>
-                                    </a>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="footer-background">
-                <footer class="footer">
-                    <div class="subflex" style="flex-basis: 14%;">
-                        <div style="border-bottom: 1px rgb(61, 61, 61) solid;padding-bottom: 18px;">
-                      <h6 class="subtitle is-6 has-text-white">GalacticDesk</h6>
-                      <p class="subtext-footer">A collection of texttile samples lay spread out on the table - Samsa
-                          was a travelling salesman- and above it there hung a picture that he
-                          had recently cut out of an illustrated.
-                      </p>
-                      
-                    </div>
-                      <a class="button btnfooter-logo">
-                            <i class="fa fa-facebook-f"></i>
-                        </a>
-                        <a class="button btnfooter-logo">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a class="button btnfooter-logo">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                        <a class="button btnfooter-logo">
-                            <i class="fa fa-skype"></i>
-                        </a>
-                    </div>
-                    <div style="flex-basis: 14%;">
-                      <h6 class="subtitle is-6 has-text-white">Useful Links</h6>
-                      <div class="columns">
-                            <div class="column">
-                                <p class="subtext-footer">
-                                    <a>Privacy Policy</a>
-                                </p>
-                                <p class="subtext-footer">
-                                    <a>Terms</a>
-                                </p>
-                                <p class="subtext-footer">
-                                    <a>Support Center</a>
-                                </p>
-                                <p class="subtext-footer">
-                                    <a>Knowledgebase</a>
-                                </p>
-                                <p class="subtext-footer">
-                                <a>Forums</a>
-                                </p>
-                                <p class="subtext-footer">
-                                <a>Authordesk</a>
-                                </p>
-                              </div>
-                              <div class="column">
-                                </p>
-                                <p class="subtext-footer">
-                                        <a>Help</a>
-                                </p>
-                                </p>
-                                <p class="subtext-footer">
-                                        <a>Contact</a>
-                                </p>
-                                </p>
-                                <p class="subtext-footer">
-                                        <a>Latest News</a>
-                                </p>
-                                </p>
-                                <p class="subtext-footer">
-                                        <a>Video Tutorials</a>
-                                </p>
-                                </p>
-                                <p class="subtext-footer">
-                                        <a>Home</a>
-                                </p>
-                                </p>
-                                <p class="subtext-footer">
-                                        <a>About us</a>
-                                </p>
-                              </div>
-                      </div>
-                    </div>
-                    <div style="flex-basis: 14%;">
-                        <div style="border-bottom: 1px rgb(61, 61, 61) solid;padding-bottom: 18px;">
-                                <h6 class="subtitle is-6 has-text-white">Latest Blogs</h6>
-                                <p class="subtext-footer">When Gregor Samsa woke from trouble
-                                    dreams, he found himself.
-                                </p>
-                                <p style="font-size: 11px;color: #1d968d">24 Feb 2017</p>
-                        </div>
-                        <div style="padding-top: 20px;">
-                                <p class="subtext-footer">The bedding was hardly able to cover it
-                                    and seemed ready to slide.
-                                </p>
-                                <p style="font-size: 11px;color: #1d968d">17 Feb 2017</p>
-                        </div>
-                        
-                                
-                              </div>
-                    <div style="flex-basis: 12%;">
-                      <h6 class="subtitle is-6 has-text-white">NewsLetter</h6>
-                      <p class="subtext-footer">A collection of textile samples lay
-                          spread out on the table.
-                        </p>
-                        <p class="control has-icons-right">
-                                <input class="input is-rounded search-mail" type="email" placeholder="Enter your mail">
+                    <figure class="image is-64x64 is-pulled-left">
+                        <img class="is-rounded m-l-30" src="./img/commentImage.png">
+                    </figure>
 
-                                <span class="icon is-small is-right">
-                                    <i class="fa fa-chevron-right"></i>
-                                </span>
-                            </p>
-                    </div>
-                </footer>
+                    <p class="subtext-comment p-t-25 p-l-110">
+                        <strong>Desmond Eagle &nbsp</strong> - Avetech</p>
+                </div>
             </div>
-            
+        </div>
+        <div class="column">
+            <div class="columns" id="rightcomments">
+                <div class="column is-half flexStart">
+                    <section class="hero is-medium">
+                        <div class="hero-title">
+                            <p class="title is-4">
+                                <strong class="sub">Why Choose us</strong>
+                            </p>
+                        </div>
+                        <!-- <div class="hero-header">
+                                <a class="button btnfooter-logo">
+                                        <i class="fa fa-facebook-f"></i>
+                                    </a>
+                                    <p class="subtitle"><strong>It show a lady fitted out with a fur hat</strong></p>
+                        </div> -->
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-background">
+        <footer class="footer">
+            <div class="subflex">
+                <div class="footer-border">
+                    <h6 class="subtitle is-6 has-text-white">GalacticDesk</h6>
+                    <p class="subtext-footer">A collection of texttile samples lay spread out on the table - Samsa was a travelling salesman- and above
+                        it there hung a picture that he had recently cut out of an illustrated.
+                    </p>
+
+                </div>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-facebook-f"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-skype"></i>
+                </a>
+            </div>
+            <div class="subflex">
+                <h6 class="subtitle is-6 has-text-white">Useful Links</h6>
+                <div class="columns">
+                    <div class="column">
+                        <p class="subtext-footer">
+                            <a>Privacy Policy</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Terms</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Support Center</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Knowledgebase</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Forums</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Authordesk</a>
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p class="subtext-footer">
+                            <a>Help</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Contact</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Latest News</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Video Tutorials</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Home</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>About us</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="subflex">
+                <div class="footer-border">
+                    <h6 class="subtitle is-6 has-text-white">Latest Blogs</h6>
+                    <p class="subtext-footer">When Gregor Samsa woke from trouble dreams, he found himself.
+                    </p>
+                    <p class="footer-date">24 Feb 2017</p>
+                </div>
+                <div class="p-t-20">
+                    <p class="subtext-footer">The bedding was hardly able to cover it and seemed ready to slide.
+                    </p>
+                    <p class="footer-date">17 Feb 2017</p>
+                </div>
+            </div>
+            <div style="flex-basis: 12%;">
+                <h6 class="subtitle is-6 has-text-white">NewsLetter</h6>
+                <p class="subtext-footer">A collection of textile samples lay spread out on the table.
+                </p>
+                <p class="control has-icons-right">
+                    <input class="input is-rounded" id="search-mail" type="email" placeholder="Enter your mail">
+
+                    <span class="icon is-small is-right">
+                        <i class="fa fa-chevron-right"></i>
+                    </span>
+                </p>
+            </div>
+
+        </footer>
+        <div id="footer-copyright">
+            <div class="container" style="padding-top: 8px;">
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <p class="subtext-footer">Copyright ⓒ 2017. All Right Reserved.&nbsp
+                            <span class="has-text-grey-light">AuthorDesk</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </body>
 
 </html>

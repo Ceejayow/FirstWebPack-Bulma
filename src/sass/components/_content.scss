@@ -1,7 +1,8 @@
-.title-services {
+#title-services {
     padding-top: 100px;
     font-size: 24px;
     font-weight: bold;
+
 }
 
 .img-circle {
@@ -13,13 +14,71 @@
 
 .btn-getprice {
     border-radius: 50px;
-        height: 40px;
-        width: 130px;
-        font-size: 13px;
-        font-weight: bold;
-        border: 1px solid rgba($color: rgb(182, 179, 179), $alpha: 0.8);
+    height: 45px;
+    width: 140px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid rgba($color: rgb(182, 179, 179), $alpha: 0.8);
+
 }
 
 .splatter-size {
     height: 30px;
+
+}
+
+.content-login-icon-text {
+    font-size: 14px ;
+}
+
+.img-login-icon {
+    height: 60;
+    width: 60;
+
+}
+
+#content-login-body-color {
+    background-color: $ThemesBackgroundColor;
+
+}
+
+#remember-checkbox {
+    height: 20px;
+    width: 100px;
+    font-size: 12px;
+    justify-content: left;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: $PureBlack;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+  &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: $PureBlack;
+
+    padding: 0 .5em;
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    color: $PureBlack;
+    background-color: #fcfcfa;
+  }
 }

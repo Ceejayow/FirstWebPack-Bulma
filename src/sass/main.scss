@@ -22,6 +22,11 @@ $SubTextFooterColor: #909193;
 $BtnFooterLogoColor: #767677;
 $SearchMailColor: #3a393e;
 $SearchMailPlaceholderColor: #767677;
+$LoginBannerColor: #f37e49;
+$FooterDateColor: #1d968d;
+$FooterBackgroundColorCopyright: #1d1d1d;
+$CommentStarColor: #ffcf0a;
+$PureBlack: #000000;
 
 
 
@@ -37,4 +42,21 @@ $SearchMailPlaceholderColor: #767677;
 body, h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     color: #4d4d4d;
+}
+
+$spaceamounts: (5, 10, 15, 18, 20, 25, 30, 35, 40, 45, 50, 55, 60, 70, 75, 80, 85, 90, 95, 100, 110); // Adjust this to include the pixel amounts you need.
+$sides: (top, bottom, left, right); // Leave this variable alone
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .m-#{str-slice($side, 0, 1)}-#{$space} {
+      margin-#{$side}: #{$space}px !important;
+
+    }
+  
+    .p-#{str-slice($side, 0, 1)}-#{$space} {
+      padding-#{$side}: #{$space}px !important;
+
+    }
+  }
 }
