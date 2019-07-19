@@ -28,7 +28,7 @@
 }
 
 .content-login-icon-text {
-    font-size: 14px ;
+    font-size: 14px;
 }
 
 .img-login-icon {
@@ -44,9 +44,8 @@
 
 #remember-checkbox {
     height: 20px;
-    width: 100px;
-    font-size: 12px;
-    justify-content: left;
+    width: 100%;
+    font-size: 11px;
 }
 
 .hr-text {
@@ -82,3 +81,48 @@
     background-color: #fcfcfa;
   }
 }
+
+.font-size-login-page {
+    font-size: 11px;
+
+}
+
+.custom-button {
+    border: none;
+    color: white;
+    padding: 1px 18px 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    max-height: 100px;
+
+}
+
+.fb-background-color {
+    background-color: #46639d;
+
+}
+
+.google-background-color {
+    background-color: #d6492e;
+}
+
+
+.custom-social-icon {
+    font-size: 10px;
+    border-right: 1px solid rgb(196, 186, 186);
+    margin-right: 8px; 
+    padding: 12px 14px 12px 8px;
+    color: #fff;
+    text-align: left;
+
+}
+
+.register-color-text {
+    color: #24c7bc;
+    font-size: 11px;
+    justify-content: left;
+}
+
