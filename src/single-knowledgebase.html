@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-start is-pulled-left">
+                <a class="navbar-item" href="https://bulma.io">
+                    AuthorDesk
+                </a>
+            </div>
+            <div class="navbar-end is-pulled-right">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a href="login.html" class="button is-rounded btn-navbar-color">
+                            Login
+                        </a>
+                        <a href="register.html" class="button is-rounded" id="btnSizeSignUp">
+                            Signup
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar" id="navbarBackColor" role="navigation" aria-label="dropdown navigation">
+        <div class="container">
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="index.html" class="navbar-item navName">
+                        Home
+                    </a>
+                    <a class="navbar-item navName">
+                        Themes
+                    </a>
+                    <a class="navbar-item navName">
+                        Support
+                    </a>
+                    <a class="navbar-item navName">
+                        Knowledgebase
+                    </a>
+                    <a class="navbar-item navName">
+                        Guides
+                    </a>
+                    <a class="navbar-item navName">
+                        Blogs
+                    </a>
+                    <a class="navbar-item navNameNoBorder">
+                        Contacts
+                    </a>
+                </div>
+                <div class="navbar-end">
+                    <a class="navbar-item navNameNoBorder">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" id="login-banner">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <h1 class="title is-4 has-text-white">
+                            Knowledge Base
+                        </h1>
+                        <div class="field">
+                            <p class="control has-icons-right">
+                                <input class="input is-rounded" id="search-box-login" type="email" placeholder="Enter your topic here">
+
+                                <span class="icon is-small is-right">
+                                    <b id="search-topic-icon-search">Search</b>
+                                    <i class="fa fa-search" id="search-topic-icon"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <p class="has-text-white is-size-7">Popular Topics: &nbsp;
+                            <b> Install demo, Visual Composer</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="columns p-t-60 m-b-40 is-centered">
+                <div class="column is-8 p-b-30">
+                        <div>
+                                <p class="title is-6">Getting Started WordPress</p>
+                                <p class="subtitle is-7 p-t-5">(
+                                    <strong>6&nbsp;</strong> Artitcles)</p>
+                            </div>
+                            <hr class="m-t-10 m-b-15">
+                </div>
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                                <div class="card knowledgebase-side-card is-shadowless">
+                                        <div class="content p-t-24 p-l-24 p-b-24">
+                                            <p class="is-size-6">
+                                                <b>Related Articles</b>
+                                            </p>
+                                            <hr class="m-b-12 m-t-5" style="background-color: #ededed;">
+                                            <div class="content m-b-3">
+                                                <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">It showed a lady fitted out with a fur hat.</a>
+                                                <div>
+                                                <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                                    <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 247</a>
+                                                <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                                    <i class="fa fa-comment is-size-7 m-r-5"></i> 7</a>
+                                                </div>
+                                            </div>
+                                            <div class="content m-b-3">
+                                                <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">Raising a heavy fur muff that covered whole.</a>
+                                                <div>
+                                                    <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                                    <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 128</a>
+                                                <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                                    <i class="fa fa-comment is-size-7 m-r-5"></i> 18</a>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="content m-b-3">
+                                                <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">Gregor then turned to look out the window.</a>
+                                                <div>
+                                                <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                                    <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 156</a>
+                                                <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                                    <i class="fa fa-comment is-size-7 m-r-5"></i> 23</a>
+                                                </div>
+                                            </div>
+                                            <div class="content m-b-0">
+                                                <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">The bedding was hardly able to cover it.</a>
+                                                <div>
+                                                <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                                    <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 223</a>
+                                                <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                                    <i class="fa fa-comment is-size-7 m-r-5"></i> 12</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            <div class="card knowledgebase-side-card is-shadowless m-t-20">
+                                <div class="card-content">
+                                    <p class="is-size-6">
+                                        <b>Knowledge Base Authors</b>
+                                    </p>
+                                    <hr class="m-t-8" style="background-color: #ededed;">
+                                    <div class="m-b-20">
+                                            <figure class="image is-48x48 is-pulled-left ">
+                                                <img class="is-rounded" src="./img/phillip.jpg" alt="Placeholder image">
+                                            </figure>
+                                        <div class="p-t-8 m-l-60">
+                                            <p class="title is-7">
+                                                <strong>Phillip Anthropy</strong>
+                                            </p>
+                                            <p class="subtitle knowledgebase-content-text has-text-grey p-t-3">(12 Articles)</p>
+                                        </div>
+                                    </div>
+                                    <div class="m-b-20">
+                                            <figure class="image is-48x48 is-pulled-left ">
+                                                <img class="is-rounded" src="./img/inverness.jpg" alt="Placeholder image">
+                                            </figure>
+                                        <div class="p-t-8 m-l-60">
+                                            <p class="title is-7">
+                                                <strong>Inverness McKenzie</strong>
+                                            </p>
+                                            <p class="subtitle knowledgebase-content-text has-text-grey p-t-3">(12 Articles)</p>
+                                        </div>
+                                    </div>
+                                    <div class="m-b-20">
+                                            <figure class="image is-48x48 is-pulled-left ">
+                                                <img class="is-rounded" src="./img/brandon.jpg" alt="Placeholder image">
+                                            </figure>
+                                        <div class="p-t-8 m-l-60">
+                                            <p class="title is-7">
+                                                <strong>Brandon Guidelines</strong>
+                                            </p>
+                                            <p class="subtitle knowledgebase-content-text has-text-grey p-t-3">(12 Articles)</p>
+                                        </div>
+                                    </div>
+                                    <div class="m-b-10">
+                                            <figure class="image is-48x48 is-pulled-left ">
+                                                <img class="is-rounded" src="./img/parsley.webp" alt="Placeholder image">
+                                            </figure>
+                                        <div class="p-t-8 m-l-60">
+                                            <p class="title is-7">
+                                                <strong>Parsley Montana</strong>
+                                            </p>
+                                            <p class="subtitle knowledgebase-content-text has-text-grey p-t-3">(12 Articles)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card knowledgebase-side-card is-shadowless m-t-20">
+                                <div class="card-content">
+                                    <p class="is-size-6">
+                                        <b>Popular Articles</b>
+                                    </p>
+                                    <hr class="m-t-8 m-b-12" style="background-color: #ededed;">
+                                    <div class="content m-b-3">
+                                        <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">The bedding was it and seemed ready.</a>
+                                        <div>
+                                        <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                            <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 355</a>
+                                        <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                            <i class="fa fa-comment is-size-7 m-r-5"></i> 18</a>
+                                        </div>
+                                    </div>
+                                    <div class="content m-b-3">
+                                        <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">Pitifully thin compared with the size.</a>
+                                        <div>
+                                            <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                            <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 355</a>
+                                        <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                            <i class="fa fa-comment is-size-7 m-r-5"></i> 18</a>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="content m-b-3">
+                                        <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">The bedding was it and seemed ready.</a>
+                                        <div>
+                                        <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                            <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 355</a>
+                                        <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                            <i class="fa fa-comment is-size-7 m-r-5"></i> 18</a>
+                                        </div>
+                                    </div>
+                                    <div class="content m-b-0">
+                                        <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">Pitifully thin compared with the size.</a>
+                                        <div>
+                                        <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                            <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 355</a>
+                                        <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                            <i class="fa fa-comment is-size-7 m-r-5"></i> 18</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card knowledgebase-side-card is-shadowless m-t-20 p-b-20">
+                                    <div class="card-content p-b-10">
+                                        <p class="is-size-6">
+                                            <b>Latest Theme</b>
+                                        </p>
+                                    </div>
+                                    <figure class="image">
+                                            <img src="./img/sampletheme.png" alt="Placeholder image">
+                                        </figure>
+                                        <div class="content has-text-centered p-t-15">
+                                            <p style="font-size: 14px;" class="m-b-5"><strong>Digital Products Marketplace</strong></p>
+                                            <p class="knowledgebase-content-text"><strong>Restored</strong><span class="has-text-grey">&nbsp; - &nbsp;WordPress theme</span></p>
+                                        </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <div id="footer-background">
+        <footer class="footer">
+            <div class="subflex">
+                <div class="footer-border">
+                    <h6 class="subtitle is-6 has-text-white">GalacticDesk</h6>
+                    <p class="subtext-footer">A collection of texttile samples lay spread out on the table - Samsa was a travelling salesman- and above
+                        it there hung a picture that he had recently cut out of an illustrated.
+                    </p>
+
+                </div>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-facebook-f"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-skype"></i>
+                </a>
+            </div>
+            <div class="subflex">
+                <h6 class="subtitle is-6 has-text-white">Useful Links</h6>
+                <div class="columns">
+                    <div class="column">
+                        <p class="subtext-footer">
+                            <a>Privacy Policy</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Terms</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Support Center</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Knowledgebase</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Forums</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Authordesk</a>
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p class="subtext-footer">
+                            <a>Help</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Contact</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Latest News</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Video Tutorials</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Home</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>About us</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="subflex">
+                <div class="footer-border">
+                    <h6 class="subtitle is-6 has-text-white">Latest Blogs</h6>
+                    <p class="subtext-footer">When Gregor Samsa woke from trouble dreams, he found himself.
+                    </p>
+                    <p class="footer-date">24 Feb 2017</p>
+                </div>
+                <div style="padding-top: 20px;">
+                    <p class="subtext-footer">The bedding was hardly able to cover it and seemed ready to slide.
+                    </p>
+                    <p class="footer-date">17 Feb 2017</p>
+                </div>
+            </div>
+            <div style="flex-basis: 12%;">
+                <h6 class="subtitle is-6 has-text-white">NewsLetter</h6>
+                <p class="subtext-footer">A collection of textile samples lay spread out on the table.
+                </p>
+                <p class="control has-icons-right">
+                    <input class="input is-rounded" id="search-mail" type="email" placeholder="Enter your mail">
+
+                    <span class="icon is-small is-right">
+                        <i class="fa fa-chevron-right"></i>
+                    </span>
+                </p>
+            </div>
+
+        </footer>
+        <div id="footer-copyright">
+            <div class="container" style="padding-top: 8px;">
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <p class="subtext-footer">Copyright ⓒ 2017. All Right Reserved.&nbsp;
+                            <span class="has-text-grey-light">AuthorDesk</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
