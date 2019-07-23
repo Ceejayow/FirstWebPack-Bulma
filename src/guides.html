@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-start is-pulled-left">
+                <a class="navbar-item" href="https://bulma.io">
+                    AuthorDesk
+                </a>
+            </div>
+            <div class="navbar-end is-pulled-right">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a href="login.html" class="button is-rounded btn-navbar-color">
+                            Login
+                        </a>
+                        <a href="register.html" class="button is-rounded" id="btnSizeSignUp">
+                            Signup
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar" id="navbarBackColor" role="navigation" aria-label="dropdown navigation">
+        <div class="container">
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="index.html" class="navbar-item navName">
+                        Home
+                    </a>
+                    <a class="navbar-item navName">
+                        Themes
+                    </a>
+                    <a class="navbar-item navName">
+                        Support
+                    </a>
+                    <a href="knowledgebase.html" class="navbar-item navName">
+                        Knowledgebase
+                    </a>
+                    <a href="guides.html" class="navbar-item navName">
+                        Guides
+                    </a>
+                    <a class="navbar-item navName">
+                        Blogs
+                    </a>
+                    <a class="navbar-item navNameNoBorder">
+                        Contacts
+                    </a>
+                </div>
+                <div class="navbar-end">
+                    <a class="navbar-item navNameNoBorder">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" id="login-banner">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <h1 class="title is-4 has-text-white">
+                            Video Guides
+                        </h1>
+                        <div class="field">
+                            <p class="control has-icons-right">
+                                <input class="input is-rounded" id="search-box-login" type="email" placeholder="Enter your topic here">
+
+                                <span class="icon is-small is-right">
+                                    <b id="search-topic-icon-search">Search</b>
+                                    <i class="fa fa-search" id="search-topic-icon"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <p class="has-text-white is-size-7">Popular Topics: &nbsp;
+                            <b> Install demo, Visual Composer</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section m-t-20">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-half has-text-centered">
+                    <div class="container">
+                        <h5 class="is-size-5 has-text-weight-bold">How to Video Guides</h5>
+                        <img class="splatter-size" src="./img/splatter.png">
+                        <div class="columns is-centered">
+                            <div class="column is-8 has-text-centered">
+
+                                <p class="subtitle is-7 has-text-grey">
+                                    <i>A wonderful serenity has taken possession of my entire soul, like these sweet mornings
+                                        of spring.
+                                    </i>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns p-t-20 m-b-10 is-centered">
+                <div class="column is-6">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="video-guide-title">
+                                <h2>
+                                    <b>Installation -&nbsp;</b>
+                                    <span style="font-size: 11px;">Demo installation</span>
+                                </h2>
+                            </div>
+                            <div class="card media-background is-shadowless">
+                                <div class="content">
+                                    <div class="columns is-multiline">
+                                        <div class="column is-6">
+
+                                            <div class="image is-4by3">
+                                                <img src="./img/videoguide.png">
+                                            </div>
+                                            <div class="m-t-10">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">One morning, when Greagor Samsa woke from troubled dreams
+                                                </p>
+                                                <p>
+                                                    <span class="bg-video-time"> 3:50</span>
+                                                    <a class="knowledgebase-content-text has-text-grey-dark p-l-20">
+                                                        <i class="fa fa-calendar is-size-7 m-r-5"></i>
+                                                        <span>&nbsp;27, Feb 2017</span>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+
+                                            <div class="image is-4by3">
+                                                <img src="./img/videoguide.png">
+                                            </div>
+                                            <div class="m-t-10">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">He lay on his armour-like back, and if he lifted his head a little
+                                                </p>
+                                                <p>
+                                                    <span class="bg-video-time"> 4:50</span>
+                                                    <a class="knowledgebase-content-text has-text-grey-dark p-l-20">
+                                                        <i class="fa fa-calendar is-size-7 m-r-5"></i>
+                                                        <span>&nbsp;27, Feb 2017</span>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="column is-6">
+
+                                            <div class="image is-4by3">
+                                                <img src="./img/videoguide.png">
+                                            </div>
+                                            <div class="m-t-10">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">The bedding was hardly able to cover it and seemed
+                                                </p>
+                                                <p>
+                                                    <span class="bg-video-time"> 5:50</span>
+                                                    <a class="knowledgebase-content-text has-text-grey-dark p-l-20">
+                                                        <i class="fa fa-calendar is-size-7 m-r-5"></i>
+                                                        <span>&nbsp;27, Feb 2017</span>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+
+                                            <div class="image is-4by3">
+                                                <img src="./img/videoguide.png">
+                                            </div>
+                                            <div class="m-t-10">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">A collection of textile samples lay spread out on the table
+                                                </p>
+                                                <p>
+                                                    <span class="bg-video-time"> 6:50</span>
+                                                    <a class="knowledgebase-content-text has-text-grey-dark p-l-20">
+                                                        <i class="fa fa-calendar is-size-7 m-r-5"></i>
+                                                        <span>&nbsp;27, Feb 2017</span>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="video-guide-title">
+                                <h2>
+                                    <b>The quick, brown fox Jumps -&nbsp;</b>
+                                    <span style="font-size: 11px;">How quickly daft jumping zebras vex</span>
+                                </h2>
+                            </div>
+                            <div class="card media-background is-shadowless">
+                                <div class="content">
+                                    <div class="columns is-multiline">
+                                        <div class="column is-6">
+
+                                            <div class="image is-4by3">
+                                                <img src="./img/videoguide.png">
+                                            </div>
+                                            <div class="m-t-10">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">One morning, when Greagor Samsa woke from troubled dreams
+                                                </p>
+                                                <p>
+                                                    <span class="bg-video-time"> 3:50</span>
+                                                    <a class="knowledgebase-content-text has-text-grey-dark p-l-20">
+                                                        <i class="fa fa-calendar is-size-7 m-r-5"></i>
+                                                        <span>&nbsp;27, Feb 2017</span>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+
+                                            <div class="image is-4by3">
+                                                <img src="./img/videoguide.png">
+                                            </div>
+                                            <div class="m-t-10">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">He lay on his armour-like back, and if he lifted his head a little
+                                                </p>
+                                                <p>
+                                                    <span class="bg-video-time"> 4:50</span>
+                                                    <a class="knowledgebase-content-text has-text-grey-dark p-l-20">
+                                                        <i class="fa fa-calendar is-size-7 m-r-5"></i>
+                                                        <span>&nbsp;27, Feb 2017</span>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column is-3">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card knowledgebase-side-card is-shadowless">
+                                <div class="card-content">
+                                    <p style="font-size: 14px">
+                                        <b>Category List</b>
+                                    </p>
+                                    <hr class="m-t-8" style="background-color: #ededed;">
+                                    <p class="has-text-weight-bold m-b-15" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">Tips & Tricks</a>
+                                        <span class="is-pulled-right">- (12)</span>
+                                    </p>
+                                    <p class="has-text-weight-bold m-b-15" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">Demo Installation</a>
+                                        <span class="is-pulled-right">- (24)</span>
+                                    </p>
+                                    <p class="has-text-weight-bold m-b-15" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">Plugin Activation</a>
+                                        <span class="is-pulled-right">- (18)</span>
+                                    </p>
+                                    <p class="has-text-weight-bold m-b-15" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">Restored - WP theme</a>
+                                        <span class="is-pulled-right">- (8)</span>
+                                    </p>
+                                    <p class="has-text-weight-bold m-b-15" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">Edit Banner</a>
+                                        <span class="is-pulled-right">- (13)</span>
+                                    </p>
+                                    <p class="has-text-weight-bold" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">Blog Themes</a>
+                                        <span class="is-pulled-right">- (21)</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card knowledgebase-side-card is-shadowless m-t-20">
+                                <div class="card-content">
+                                    <p style="font-size: 14px">
+                                        <b>Popular Videos</b>
+                                    </p>
+                                    <hr class="m-t-8 m-b-12" style="background-color: #ededed;">
+                                    <div class="media media-borderless m-b-5">
+                                        <div class="media-left">
+                                            <div class="image is-128x128" style="height: 80px; width: 95px;">
+                                                <img src="./img/popularvideos1.png">
+                                            </div>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="m-b-4" style="font-size: 11px;">It showed a lady fitted out with a fur hat.</p>
+                                            <span class="bg-video-time"> 4:50</span>
+                                        </div>
+                                    </div>
+                                    <div class="media media-borderless m-b-5 m-t-0 p-t-0">
+                                        <div class="media-left">
+                                            <div class="image is-128x128" style="height: 80px; width: 95px;">
+                                                <img src="./img/popularvideos1.png">
+                                            </div>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="m-b-4" style="font-size: 11px;">It showed a lady fitted out with a fur hat.</p>
+                                            <span class="bg-video-time"> 4:50</span>
+                                        </div>
+                                    </div>
+                                    <div class="media media-borderless m-b-5 m-t-0 p-t-0">
+                                        <div class="media-left">
+                                            <div class="image is-128x128" style="height: 80px; width: 95px;">
+                                                <img src="./img/popularvideos1.png">
+                                            </div>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="m-b-4" style="font-size: 11px;">It showed a lady fitted out with a fur hat.</p>
+                                            <span class="bg-video-time"> 4:50</span>
+                                        </div>
+                                    </div>
+                                    <div class="media media-borderless m-b-5 m-t-0 p-t-0">
+                                        <div class="media-left">
+                                            <div class="image is-128x128" style="height: 80px; width: 95px;">
+                                                <img src="./img/popularvideos1.png">
+                                            </div>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="m-b-4" style="font-size: 11px;">It showed a lady fitted out with a fur hat.</p>
+                                            <span class="bg-video-time"> 4:50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card knowledgebase-side-card is-shadowless m-t-20 p-b-20">
+                                <div class="card-content p-b-10">
+                                    <p style="font-size: 14px">
+                                        <b>Tags</b>
+                                    </p>
+                                    <hr class="m-t-8 m-b-12" style="background-color: #ededed;">
+
+
+                                    <div class="content">
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Installation
+                                        </a>
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Demo
+                                        </a>
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Tips
+                                        </a>
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Tricks
+                                        </a>
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Guide
+                                        </a>
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Plugins
+                                        </a>
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Tutorials
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns is-centered p-b-30">
+                <div class="column is-half">
+                    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+                        <ul class="pagination-list is-size-7">
+                            <li>
+                                <a class="pagination-link" aria-label="Goto page 1">1</a>
+                            </li>
+                            <li>
+                                <a class="pagination-link is-current" aria-label="Goto page 45">2</a>
+                            </li>
+                            <li>
+                                <a class="pagination-link" aria-label="Page 46" aria-current="page">3</a>
+                            </li>
+                            <li>
+                                <span class="pagination-ellipsis">&hellip;</span>
+                            </li>
+                            <li>
+                                <a class="pagination-link" aria-label="Goto page 86">12</a>
+                            </li>
+                            <li>
+                                <a class="is-size-7 has-text-grey-dark p-l-5" aria-label="Goto page 86">Last &nbsp;
+                                    <i class="fa fa-angle-double-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer-background">
+        <footer class="footer">
+            <div class="subflex">
+                <div class="footer-border">
+                    <h6 class="subtitle is-6 has-text-white">GalacticDesk</h6>
+                    <p class="subtext-footer">A collection of texttile samples lay spread out on the table - Samsa was a travelling salesman- and above
+                        it there hung a picture that he had recently cut out of an illustrated.
+                    </p>
+
+                </div>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-facebook-f"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-skype"></i>
+                </a>
+            </div>
+            <div class="subflex">
+                <h6 class="subtitle is-6 has-text-white">Useful Links</h6>
+                <div class="columns">
+                    <div class="column">
+                        <p class="subtext-footer">
+                            <a>Privacy Policy</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Terms</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Support Center</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Knowledgebase</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Forums</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Authordesk</a>
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p class="subtext-footer">
+                            <a>Help</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Contact</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Latest News</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Video Tutorials</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Home</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>About us</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="subflex">
+                <div class="footer-border">
+                    <h6 class="subtitle is-6 has-text-white">Latest Blogs</h6>
+                    <p class="subtext-footer">When Gregor Samsa woke from trouble dreams, he found himself.
+                    </p>
+                    <p class="footer-date">24 Feb 2017</p>
+                </div>
+                <div style="padding-top: 20px;">
+                    <p class="subtext-footer">The bedding was hardly able to cover it and seemed ready to slide.
+                    </p>
+                    <p class="footer-date">17 Feb 2017</p>
+                </div>
+            </div>
+            <div style="flex-basis: 12%;">
+                <h6 class="subtitle is-6 has-text-white">NewsLetter</h6>
+                <p class="subtext-footer">A collection of textile samples lay spread out on the table.
+                </p>
+                <p class="control has-icons-right">
+                    <input class="input is-rounded" id="search-mail" type="email" placeholder="Enter your mail">
+
+                    <span class="icon is-small is-right">
+                        <i class="fa fa-chevron-right"></i>
+                    </span>
+                </p>
+            </div>
+
+        </footer>
+        <div id="footer-copyright">
+            <div class="container" style="padding-top: 8px;">
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <p class="subtext-footer">Copyright ⓒ 2017. All Right Reserved.&nbsp;
+                            <span class="has-text-grey-light">AuthorDesk</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

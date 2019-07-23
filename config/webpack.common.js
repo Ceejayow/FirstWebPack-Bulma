@@ -46,6 +46,11 @@ module.exports = {
       template: Path.resolve(__dirname, '../src/single-knowledgebase.html'),
       minify
     }),
+    new HtmlWebpackPlugin({
+      filename: 'guides.html',
+      template: Path.resolve(__dirname, '../src/guides.html'),
+      minify
+    }),
   ],
   resolve: {
     alias: {

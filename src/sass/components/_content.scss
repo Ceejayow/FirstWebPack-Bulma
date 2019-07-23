@@ -138,13 +138,12 @@
 }
 
 .knowledgebase-icon-color {
-    color: #1ea69a;
+    color: #1caa90;
 
 }
 
 .knowledgebase-side-card {
     background-color: $ThemesBackgroundColor;
-    width: 250px;
     box-shadow: 0px;
 
 }
@@ -154,3 +153,68 @@
 
 }
 
+#bg-color-div {
+    background-color: #f37e49;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+
+}
+
+.post-information {
+    border-top: 1px #e5e5e5 solid;
+    padding: 5px 0px 5px 0px;
+
+    .fa {
+        color: #989898;
+
+    }
+
+}
+
+.media-background {
+    background-color: $ThemesBackgroundColor;
+    padding: 20px;
+
+}
+
+.bg-video-time {
+    background-color: #000000;
+    color: #fff;
+    width: 35px;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 2px 8px 2px 8px;
+
+}
+
+.video-guide-title {
+    background-color: #f37e49;
+    padding: 15px 20px 15px 20px;
+
+    > h2{
+    color: #fff;
+
+    }
+
+}
+
+.btn-guides-tags {
+    background-color: #f9f9f9;
+    color: #333333;
+    margin: 0px 13px 8px 0px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.btn-guides-tags:hover {
+    background-color: #f37e49;
+    color: #fff;
+    border: none;
+
+}
+
+.media + .media-borderless {
+    border: none;
+ }
