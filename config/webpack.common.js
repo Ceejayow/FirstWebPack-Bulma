@@ -51,6 +51,26 @@ module.exports = {
       template: Path.resolve(__dirname, '../src/guides.html'),
       minify
     }),
+    new HtmlWebpackPlugin({
+      filename: 'single-guides.html',
+      template: Path.resolve(__dirname, '../src/single-guides.html'),
+      minify
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'blog.html',
+      template: Path.resolve(__dirname, '../src/blog.html'),
+      minify
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'single-blog.html',
+      template: Path.resolve(__dirname, '../src/single-blog.html'),
+      minify
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'contact.html',
+      template: Path.resolve(__dirname, '../src/contact.html'),
+      minify
+    }),
   ],
   resolve: {
     alias: {

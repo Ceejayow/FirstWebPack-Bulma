@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Single-Blog Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-start is-pulled-left">
+                <a class="navbar-item" href="https://bulma.io">
+                    AuthorDesk
+                </a>
+            </div>
+            <div class="navbar-end is-pulled-right">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a href="login.html" class="button is-rounded btn-navbar-color">
+                            Login
+                        </a>
+                        <a href="register.html" class="button is-rounded" id="btnSizeSignUp">
+                            Signup
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbarBackColor" role="navigation" aria-label="dropdown navigation">
+        <div class="container">
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="index.html" class="navbar-item navName">
+                        Home
+                    </a>
+                    <a class="navbar-item navName">
+                        Themes
+                    </a>
+                    <a class="navbar-item navName">
+                        Support
+                    </a>
+                    <a href="knowledgebase.html" class="navbar-item navName">
+                        Knowledgebase
+                    </a>
+                    <a href="guides.html" class="navbar-item navName">
+                        Guides
+                    </a>
+                    <a href="blog.html" class="navbar-item navName">
+                        Blogs
+                    </a>
+                    <a href="contact.html" class="navbar-item navNameNoBorder">
+                        Contacts
+                    </a>
+                </div>
+                <div class="navbar-end">
+                    <a class="navbar-item navNameNoBorder">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" id="login-banner">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <h1 class="title is-4 has-text-white">
+                            Single Blog
+                        </h1>
+                        <div class="field">
+                            <p class="control has-icons-right">
+                                <input class="input is-rounded" id="search-box-login" type="email" placeholder="Enter your topic here">
+
+                                <span class="icon is-small is-right">
+                                    <b id="search-topic-icon-search">Search</b>
+                                    <i class="fa fa-search" id="search-topic-icon"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <p class="has-text-white is-size-7">Popular Topics: &nbsp;
+                            <b> Install demo, Visual Composer</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section m-t-20 m-b-20">
+        <div class="container">
+            <div class="columns p-t-20 m-b-10 is-centered">
+                <div class="column is-6">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="image is-16by9">
+                                <img src="./img/single_blog_image.png">
+                            </div>
+                            <div class="post-information knowledgebase-content-text m-t-15" style="border: none;">
+                                <div class="icon-text">
+                                    <a class="m-r-15">
+                                        <i class="fa fa-user is-size-7 m-r-5"></i>
+                                        <span class="knowledgebase-icon-color">&nbsp;Chauffina Carr</span>
+                                    </a>
+                                    <a class="p-r-15">
+                                        <i class="fa fa-calendar is-size-7 m-r-5"></i>
+                                        <span class="knowledgebase-icon-color">&nbsp;27, Feb 2017</span>
+                                    </a>
+                                    <a class="">
+                                        <i class="fa fa-tags is-size-7 m-r-5"></i>
+                                        <span class="knowledgebase-icon-color">&nbsp;Installation</span>
+                                    </a>
+                                    <div class="is-pulled-right">
+                                        <p class="has-text-weight-bold has-text-black">Share this:
+                                            <a class="knowledgebase-content-text m-l-12">
+                                                <i class="fa fa-facebook-f is-size-7"></i>
+                                            </a>
+                                            <a class="knowledgebase-content-text m-l-12">
+                                                <i class="fa fa-twitter is-size-7"></i>
+                                            </a>
+                                            <a class="knowledgebase-content-text m-l-12">
+                                                <i class="fa fa-linkedin is-size-7"></i>
+                                            </a>
+                                            <a class="knowledgebase-content-text m-l-12">
+                                                <i class="fa fa-google is-size-7">+</i>
+                                            </a>
+                                            <a class="knowledgebase-content-text m-l-12">
+                                                <i class="fa fa-pinterest is-size-7"></i>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p class="is-size-6 p-t-10 m-b-15">
+                                    <b>Crazy Fredericka Bought many very Exquisite.</b>
+                                </p>
+                                <hr class="m-t-0 m-b-10">
+                                <p class="knowledgebase-content-text has-text-grey-dark p-t-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae sem quis neque aliquam
+                                    euismod vitae ut justo. Vivamus nec tortor eu mauris elementum placerat id in est. Phasellus
+                                    eleifend vestibulum tortor in ornare. Vestibulum lobortis bibendum purus, sodales sollicitudin
+                                    metus ornare non Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
+                                    sem quis neque aliquam euismod vitae ut justo. Vivamus nec tortor eu mauris elementum
+                                    placerat id in est. Phasellus eleifend vestibulum tortor in ornare.
+                                </p>
+                                <div class="m-t-15" id="blog-text-design">
+                                    <p>
+                                        IMPORTANT!!! After theme installation, at the top you have box with information about required and optional plugins. To install
+                                        them and activate, install only Necessary Plugins. We included plugins like: Slider
+                                        Revolution (required), Visual Composer (required).
+                                    </p>
+                                </div>
+                                <p class="knowledgebase-content-text has-text-grey-dark p-t-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae sem quis neque aliquam
+                                    euismod vitae ut justo. Vivamus nec tortor eu mauris elementum placerat id in est. Phasellus
+                                    eleifend vestibulum tortor in ornare. Vestibulum lobortis bibendum purus, sodales sollicitudin
+                                    metus ornare non Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <p class="is-size-6 p-t-20 m-b-15 ">
+                                    <b>Getting up Early all the Time.</b>
+                                </p>
+                                <hr class="m-t-0 m-b-10">
+                                <p class="knowledgebase-content-text has-text-grey-dark p-t-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae sem quis neque aliquam
+                                    euismod vitae ut justo. Vivamus nec tortor eu mauris elementum placerat id in est. Phasellus
+                                    eleifend vestibulum tortor in ornare. Vestibulum lobortis bibendum purus, sodales sollicitudin
+                                    metus ornare non Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    <br>
+                                    <br>
+
+                                    <i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae sem quis neque aliquam
+                                        euismod vitae ut justo. Vivamus nec tortor eu mauris elementum placerat id in est.
+                                        Phasellus eleifend vestibulum tortor in ornare. Sit amet, consectetur adipiscing
+                                        elit.
+                                    </i>
+                                </p>
+                            </div>
+                            <div id="single-blog-pager">
+                                <a class="knowledgebase-content-text m-l-12">
+                                    <i class="fa fa-angle-left is-size-7 p-r-8"></i>
+                                    <b>Prev Post</b>
+                                </a>
+                                <a class="knowledgebase-content-text m-r-12 m-t-4 is-pulled-right">
+                                    <b>Next Post</b>
+                                    <i class="fa fa-angle-right is-size-7 p-l-8"></i>
+                                </a>
+                            </div>
+                            <div class="card media-background is-shadowless m-t-50">
+                                <div class="content">
+                                    <p class="is-size-6 has-text-weight-bold has-text-black">
+                                        About Author
+                                    </p>
+                                    <p class="knowledgebase-content-text has-text-grey-light m-t-20">
+                                        <span class="is-size-7 has-text-weight-bold has-text-black">Hollie R. Whittington -&nbsp;</span>
+                                        Admin
+                                    </p>
+                                    <div class="image is-64x64 is-pulled-left m-r-10">
+                                        <img class="is-rounded" src="./img/parsley.webp">
+                                    </div>
+                                    <p class="knowledgebase-content-text has-text-grey p-t-8 p-b-20">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas
+                                        non massa sem.
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="is-size-6 has-text-weight-bold has-text-black m-t-60 m-b-20">
+                                Comments (22)
+                            </p>
+                            <div class="post-information">
+                                <div class="card media-background is-shadowless m-t-20">
+                                    <div class="content p-b-10">
+                                        <p class="knowledgebase-content-text has-text-grey-light">
+                                            <span class="is-size-7 has-text-weight-bold has-text-black">Anna R. Moss</span>
+                                            <br> 19 days ago
+                                        </p>
+                                        <div class="image is-64x64 is-pulled-left m-r-10">
+                                            <img class="is-rounded" src="./img/inverness.jpg">
+                                        </div>
+                                        <p class="knowledgebase-content-text has-text-grey p-t-10">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas
+                                            non massa sem. Etiam finibus odio quis feugiat facilisis.
+                                        </p>
+                                        <a class="knowledgebase-content-text knowledgebase-icon-color is-pulled-right p-r-30">Reply</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card media-background is-shadowless m-t-10">
+                                <div class="content p-b-10">
+                                    <p class="knowledgebase-content-text has-text-grey-light">
+                                        <span class="is-size-7 has-text-weight-bold has-text-black">Daniel J. Sankey</span>
+                                        <br> 11 days ago
+                                    </p>
+                                    <div class="image is-64x64 is-pulled-left m-r-10">
+                                        <img class="is-rounded" src="./img/brandon.jpg">
+                                    </div>
+                                    <p class="knowledgebase-content-text has-text-grey p-t-10">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
+                                    </p>
+                                    <a class="knowledgebase-content-text knowledgebase-icon-color is-pulled-right p-r-30">Reply</a>
+                                </div>
+                                <div class="content p-b-10 p-l-40">
+                                    <p class="knowledgebase-content-text has-text-grey-light">
+                                        <span class="is-size-7 has-text-weight-bold has-text-black">Wanda A. Evans -&nbsp;</span>
+                                        <span class="knowledgebase-icon-color" style="font-size: 10px;">(AuthorDesk Staff)</span>
+                                        <br> 19 days ago
+                                    </p>
+                                    <div class="image is-64x64 is-pulled-left m-r-10">
+                                        <img class="is-rounded" src="./img/parsley.webp">
+                                    </div>
+                                    <p class="knowledgebase-content-text has-text-grey p-t-10">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas
+                                        non massa sem. Etiam finibus odio quis feugiat facilisis.
+                                    </p>
+                                    <a class="knowledgebase-content-text knowledgebase-icon-color is-pulled-right p-r-30">Reply</a>
+                                </div>
+                            </div>
+
+                            <div class="m-t-50">
+                                <p class="is-size-6 has-text-weight-bold has-text-black m-b-20">
+                                    Write Your Comment?
+                                </p>
+                                <div class="post-information p-t-30">
+                                    <div class="columns">
+                                        <div class="column is-three-quarters">
+
+                                            <div class="field">
+                                                <div class="control has-icons-left has-icons-right">
+                                                    <input class="input is-shadowless" type="text" placeholder="Name">
+                                                    <span class="icon is-small is-left is-size-7 m-l-5 m-t-4">
+                                                        <i class="fa fa-user"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="control has-icons-left has-icons-right m-t-10">
+                                                    <input class="input is-shadowless" type="email" placeholder="Email">
+                                                    <span class="icon is-small is-left is-size-7 m-l-5 m-t-4">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="control has-icons-left has-icons-right m-t-10">
+                                                    <input class="input is-shadowless" type="email" placeholder="Website URL">
+                                                    <span class="icon is-small is-left is-size-7 m-l-5 m-t-4">
+                                                        <i class="fa fa-chain"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="control m-t-10">
+                                                    <textarea class="input p-b-100 p-l-15 p-t-15" style="overflow:hidden" placeholder="Write Comment" cols="30" rows="10"></textarea>
+                                                </div>
+                                                <div class="buttons m-t-20">
+                                                    <a href="login.html" class="button is-rounded btn-knowledge-comment-post">
+                                                        Post Comment
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-3">
+                    <div class="columns">
+                        <div class="column">
+                            <p class="control has-icons-right">
+                                <input class="input" id="single-blog-search" type="email" placeholder="Search..">
+
+                                <span class="icon is-small is-right">
+                                    <i class="fa fa-search" id="single-blog-search-icon"></i>
+                                </span>
+                            </p>
+
+                            <div class="card knowledgebase-side-card is-shadowless m-t-20">
+                                <div class="card-content p-t-20">
+                                    <p style="font-size: 14px">
+                                        <b>Category</b>
+                                    </p>
+                                    <hr class="m-t-8" style="background-color: #ededed;">
+                                    <p class="has-text-weight-bold m-b-10" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">
+                                            <i class="fa fa-circle is-size-7 p-r-8 icon-circle"></i>WordPress</a>
+                                    </p>
+                                    <p class="has-text-weight-bold m-b-10" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">
+                                            <i class="fa fa-circle is-size-7 p-r-8 icon-circle"></i>Installation</a>
+                                    </p>
+                                    <p class="has-text-weight-bold m-b-10" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">
+                                            <i class="fa fa-circle is-size-7 p-r-8 icon-circle"></i>Plugins</a>
+                                    </p>
+                                    <p class="has-text-weight-bold m-b-10" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">
+                                            <i class="fa fa-circle is-size-7 p-r-8 icon-circle"></i>Customization</a>
+                                    </p>
+                                    <p class="has-text-weight-bold" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">
+                                            <i class="fa fa-circle is-size-7 p-r-8 icon-circle"></i>Demo Content</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card knowledgebase-side-card is-shadowless m-t-20">
+                                <div class="card-content p-t-20">
+                                    <p style="font-size: 14px">
+                                        <b>Latest Posts</b>
+                                    </p>
+                                    <hr class="m-t-8 m-b-12" style="background-color: #ededed;">
+                                    <div class="media media-borderless m-b-5">
+                                        <div class="media-left">
+                                            <div class="image is-128x128" style="height: 80px; width: 95px;">
+                                                <img src="./img/single_blog_image_post1.png">
+                                            </div>
+                                        </div>
+                                        <div class="media-content">
+                                            <p style="font-size: 11px;">
+                                                <a class="has-text-grey-dark">Adjusting quiver and bow, killed the fox.</a>
+                                            </p>
+                                            <span class="footer-date">March 07, 2017</span>
+                                        </div>
+                                    </div>
+                                    <div class="media media-borderless m-b-5 m-t-0 p-t-0">
+                                        <div class="media-left">
+                                            <div class="image is-128x128" style="height: 80px; width: 95px;">
+                                                <img src="./img/single_blog_image_post2.png">
+                                            </div>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="m-b-4" style="font-size: 11px;">
+                                                <a class="has-text-grey-dark">Flummoxed by job and kvetching zaps Iraq.</a>
+                                            </p>
+                                            <span class="footer-date">June 27, 2017</span>
+                                        </div>
+                                    </div>
+                                    <div class="media media-borderless m-b-5 m-t-0 p-t-0">
+                                        <div class="media-left">
+                                            <div class="image is-128x128" style="height: 80px; width: 95px;">
+                                                <img src="./img/single_blog_image_post3.png">
+                                            </div>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="m-b-4" style="font-size: 11px;">
+                                                <a class="has-text-grey-dark">A thousand unknown by plants are noticed.</a>
+                                            </p>
+                                            <span class="footer-date">March 01, 2017</span>
+                                        </div>
+                                    </div>
+                                    <div class="media media-borderless m-b-5 m-t-0 p-t-0">
+                                        <div class="media-left">
+                                            <div class="image is-128x128" style="height: 80px; width: 95px;">
+                                                <img src="./img/single_blog_image_post4.png">
+                                            </div>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="m-b-4" style="font-size: 11px;">
+                                                <a class="has-text-grey-dark">The countless and it the indescribable forms.</a>
+                                            </p>
+                                            <span class="footer-date">Apr 09, 2017</span>
+                                        </div>
+                                    </div>
+                                    <div class="media media-borderless m-b-5 m-t-0 p-t-0">
+                                        <div class="media-left">
+                                            <div class="image is-128x128" style="height: 80px; width: 95px;">
+                                                <img src="./img/single_blog_image_post5.png">
+                                            </div>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="m-b-4" style="font-size: 11px;">
+                                                <a class="has-text-grey-dark">I enjoy with my whole heart. I am alone.</a>
+                                            </p>
+                                            <span class="footer-date">Sep 15, 2017</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card knowledgebase-side-card is-shadowless m-t-20 p-b-20">
+                                <div class="card-content p-b-10 p-t-20">
+                                    <p style="font-size: 14px">
+                                        <b>Tags</b>
+                                    </p>
+                                    <hr class="m-t-8 m-b-12" style="background-color: #ededed;">
+
+
+                                    <div class="content">
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Installation
+                                        </a>
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Demo
+                                        </a>
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Tips
+                                        </a>
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Tricks
+                                        </a>
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Guide
+                                        </a>
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Plugins
+                                        </a>
+                                        <a href="#" class="button is-rounded btn-guides-tags">
+                                            Tutorials
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card knowledgebase-side-card is-shadowless m-t-20">
+                                <div class="card-content p-t-20">
+                                    <p style="font-size: 14px">
+                                        <b>Archives</b>
+                                    </p>
+                                    <hr class="m-t-8 m-b-20" style="background-color: #ededed;">
+                                    <p class="has-text-weight-bold m-b-12" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">June 2017</a>
+                                        <span class="is-pulled-right">- (12)</span>
+                                    </p>
+                                    <p class="has-text-weight-bold m-b-12" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">May 2017</a>
+                                        <span class="is-pulled-right">- (24)</span>
+                                    </p>
+                                    <p class="has-text-weight-bold m-b-12" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">April 2017</a>
+                                        <span class="is-pulled-right">- (18)</span>
+                                    </p>
+                                    <p class="has-text-weight-bold m-b-12" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">March 2017</a>
+                                        <span class="is-pulled-right">- (8)</span>
+                                    </p>
+                                    <p class="has-text-weight-bold m-b-12" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">Febraury 2017</a>
+                                        <span class="is-pulled-right">- (13)</span>
+                                    </p>
+                                    <p class="has-text-weight-bold" style="font-size: 11px;">
+                                        <a class="has-text-grey-dark">January 2017</a>
+                                        <span class="is-pulled-right">- (21)</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-three-quarters">
+                    <div class="post-information">
+                        <p class="is-size-6 has-text-weight-bold has-text-black m-b-15 m-t-40">
+                            Related Blogs
+                        </p>
+                        <div class="columns">
+                            <div class="column is-4 ">
+                                <a href="single-guides.html" class="image is-5by3">
+                                    <img src="./img/blog_image_4.png">
+                                </a>
+                                <div class="m-t-15">
+
+                                    <p class="has-text-weight-bold" style="font-size: 14px">
+                                        <a class="has-text-grey-dark" href="single-guides.html">Lay Peacefully Between</a>
+                                    </p>
+                                    <p class="knowledgebase-content-text has-text-grey p-t-10">A collection of textile samples lay spread out on the table - Samsa was a travelling
+                                        salesman - and above it there hung a picture.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column">
+
+                                <a class="image is-5by3">
+                                    <img src="./img/blog_image_5.png">
+                                </a>
+                                <div class="m-t-15">
+
+                                    <p class="has-text-weight-bold" style="font-size: 14px">
+                                        <a class="has-text-grey-dark" href="">Slightly Domed and Divided</a>
+                                    </p>
+                                    <p class="knowledgebase-content-text has-text-grey p-t-10">A collection of textile samples lay spread out on the table - Samsa was a travelling
+                                        salesman - and above it there hung a picture.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column">
+
+                                <a class="image is-5by3">
+                                    <img src="./img/blog_image_6.png">
+                                </a>
+                                <div class="m-t-15">
+
+                                    <p class="has-text-weight-bold" style="font-size: 14px">
+                                        <a class="has-text-grey-dark" href="">Crazy Fredericka bought many very.</a>
+                                    </p>
+                                    <p class="knowledgebase-content-text has-text-grey p-t-10">A collection of textile samples lay spread out on the table - Samsa was a travelling
+                                        salesman - and above it there hung a picture.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div id="footer-background">
+        <footer class="footer">
+            <div class="subflex">
+                <div class="footer-border">
+                    <h6 class="subtitle is-6 has-text-white">GalacticDesk</h6>
+                    <p class="subtext-footer">A collection of texttile samples lay spread out on the table - Samsa was a travelling salesman- and above
+                        it there hung a picture that he had recently cut out of an illustrated.
+                    </p>
+
+                </div>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-facebook-f"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-skype"></i>
+                </a>
+            </div>
+            <div class="subflex">
+                <h6 class="subtitle is-6 has-text-white">Useful Links</h6>
+                <div class="columns">
+                    <div class="column">
+                        <p class="subtext-footer">
+                            <a>Privacy Policy</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Terms</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Support Center</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Knowledgebase</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Forums</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Authordesk</a>
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p class="subtext-footer">
+                            <a>Help</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Contact</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Latest News</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Video Tutorials</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Home</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>About us</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="subflex">
+                <div class="footer-border">
+                    <h6 class="subtitle is-6 has-text-white">Latest Blogs</h6>
+                    <p class="subtext-footer">When Gregor Samsa woke from trouble dreams, he found himself.
+                    </p>
+                    <p class="footer-date">24 Feb 2017</p>
+                </div>
+                <div style="padding-top: 20px;">
+                    <p class="subtext-footer">The bedding was hardly able to cover it and seemed ready to slide.
+                    </p>
+                    <p class="footer-date">17 Feb 2017</p>
+                </div>
+            </div>
+            <div style="flex-basis: 12%;">
+                <h6 class="subtitle is-6 has-text-white">NewsLetter</h6>
+                <p class="subtext-footer">A collection of textile samples lay spread out on the table.
+                </p>
+                <p class="control has-icons-right">
+                    <input class="input is-rounded" id="search-mail" type="email" placeholder="Enter your mail">
+
+                    <span class="icon is-small is-right">
+                        <i class="fa fa-chevron-right"></i>
+                    </span>
+                </p>
+            </div>
+
+        </footer>
+        <div id="footer-copyright">
+            <div class="container" style="padding-top: 8px;">
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <p class="subtext-footer">Copyright ⓒ 2017. All Right Reserved.&nbsp;
+                            <span class="has-text-grey-light">AuthorDesk</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

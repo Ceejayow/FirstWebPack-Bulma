@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blog Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-start is-pulled-left">
+                <a class="navbar-item" href="https://bulma.io">
+                    AuthorDesk
+                </a>
+            </div>
+            <div class="navbar-end is-pulled-right">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a href="login.html" class="button is-rounded btn-navbar-color">
+                            Login
+                        </a>
+                        <a href="register.html" class="button is-rounded" id="btnSizeSignUp">
+                            Signup
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbarBackColor" role="navigation" aria-label="dropdown navigation">
+        <div class="container">
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="index.html" class="navbar-item navName">
+                        Home
+                    </a>
+                    <a class="navbar-item navName">
+                        Themes
+                    </a>
+                    <a class="navbar-item navName">
+                        Support
+                    </a>
+                    <a href="knowledgebase.html" class="navbar-item navName">
+                        Knowledgebase
+                    </a>
+                    <a href="guides.html" class="navbar-item navName">
+                        Guides
+                    </a>
+                    <a href="blog.html" class="navbar-item navName">
+                        Blogs
+                    </a>
+                    <a href="contact.html" class="navbar-item navNameNoBorder">
+                        Contacts
+                    </a>
+                </div>
+                <div class="navbar-end">
+                    <a class="navbar-item navNameNoBorder">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" id="login-banner">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <h1 class="title is-4 has-text-white">
+                            Blogs & News
+                        </h1>
+                        <div class="field">
+                            <p class="control has-icons-right">
+                                <input class="input is-rounded" id="search-box-login" type="email" placeholder="Enter your topic here">
+
+                                <span class="icon is-small is-right">
+                                    <b id="search-topic-icon-search">Search</b>
+                                    <i class="fa fa-search" id="search-topic-icon"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <p class="has-text-white is-size-7">Popular Topics: &nbsp;
+                            <b> Install demo, Visual Composer</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section m-t-20">
+        <div class="container">
+            <div class="columns p-t-20 m-b-10 is-centered">
+                <div class="column is-three-quarters">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="">
+                                <div class="content">
+                                    <div class="columns">
+                                        <div class="column is-4 ">
+
+                                            <a href="single-blog.html" class="image is-5by3">
+                                                <img src="./img/blog_image_1.png">
+                                            </a>
+                                            <div class="m-t-15">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">
+                                                    <a class="has-text-grey-dark" href="single-blog.html">An illustrated Magazine and House</a>
+                                                </p>
+                                                <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
+                                                    travelling salesman - and above it there hung a picture.
+                                                </p>
+                                            </div>
+                                            <div class="post-information m-t-20 has-text-centered">
+                                                <div class="blog-social-info p-b-10">
+                                                    <a class="knowledgebase-content-text m-r-20">
+                                                        <i class="fa fa-user m-r-5"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Shown D. Romo</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text p-r-20">
+                                                        <i class="fa fa-calendar m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;27, Feb 2017</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text">
+                                                        <i class="fa fa-tags m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Installation</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+
+                                            <a class="image is-5by3">
+                                                <img src="./img/blog_image_2.png">
+                                            </a>
+                                            <div class="m-t-15">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">
+                                                    <a class="has-text-grey-dark" href="">Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra.</a>
+                                                </p>
+
+                                                <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
+                                                    travelling salesman - and above it there hung a picture.
+                                                </p>
+                                            </div>
+                                            <div class="post-information m-t-20 has-text-centered">
+                                                <div class="blog-social-info p-b-10">
+                                                    <a class="knowledgebase-content-text m-r-20">
+                                                        <i class="fa fa-user m-r-5"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Chauffina Carr</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text p-r-20">
+                                                        <i class="fa fa-calendar m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;12, Apr 2017</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text">
+                                                        <i class="fa fa-tags m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;indescrbable</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+
+                                            <a class="image is-5by3">
+                                                <img src="./img/blog_image_3.png">
+                                            </a>
+                                            <div class="m-t-15">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">
+                                                    <a class="has-text-grey-dark" href="">Incapable of Drawing a Single Stroke</a>
+                                                </p>
+                                                <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
+                                                    travelling salesman - and above it there hung a picture.
+                                                </p>
+                                            </div>
+                                            <div class="post-information m-t-20 has-text-centered">
+                                                <div class="blog-social-info p-b-10">
+                                                    <a class="knowledgebase-content-text m-r-20">
+                                                        <i class="fa fa-user m-r-5"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Timothy J.</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text p-r-20">
+                                                        <i class="fa fa-calendar m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;05, June 2017</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text">
+                                                        <i class="fa fa-tags m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;familiar</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column is-4 ">
+
+                                            <a href="single-guides.html" class="image is-5by3">
+                                                <img src="./img/blog_image_4.png">
+                                            </a>
+                                            <div class="m-t-15">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">
+                                                    <a class="has-text-grey-dark" href="single-guides.html">Lay Peacefully Between</a>
+                                                </p>
+                                                <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
+                                                    travelling salesman - and above it there hung a picture.
+                                                </p>
+                                            </div>
+                                            <div class="post-information m-t-20 has-text-centered">
+                                                <div class="blog-social-info p-b-10">
+                                                    <a class="knowledgebase-content-text m-r-20">
+                                                        <i class="fa fa-user m-r-5"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;B. Blackbum</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text p-r-20">
+                                                        <i class="fa fa-calendar m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;05, July 2017</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text">
+                                                        <i class="fa fa-tags m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;magazine</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+
+                                            <a class="image is-5by3">
+                                                <img src="./img/blog_image_5.png">
+                                            </a>
+                                            <div class="m-t-15">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">
+                                                    <a class="has-text-grey-dark" href="">Slightly Domed and Divided</a>
+                                                </p>
+                                                <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
+                                                    travelling salesman - and above it there hung a picture.
+                                                </p>
+                                            </div>
+                                            <div class="post-information m-t-20 has-text-centered">
+                                                <div class="blog-social-info p-b-10">
+                                                    <a class="knowledgebase-content-text m-r-20">
+                                                        <i class="fa fa-user m-r-5"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Carlo S. Kurtz</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text p-r-20">
+                                                        <i class="fa fa-calendar m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;07, Mar 2017</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text">
+                                                        <i class="fa fa-tags m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;indescrbable</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+
+                                            <a class="image is-5by3">
+                                                <img src="./img/blog_image_6.png">
+                                            </a>
+                                            <div class="m-t-15">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">
+                                                    <a class="has-text-grey-dark" href="">Crazy Fredericka bought many very exquisite opal jewels, Sixty zippers.</a>
+                                                </p>
+                                                <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
+                                                    travelling salesman - and above it there hung a picture.
+                                                </p>
+                                            </div>
+                                            <div class="post-information m-t-20 has-text-centered">
+                                                <div class="blog-social-info p-b-10">
+                                                    <a class="knowledgebase-content-text m-r-20">
+                                                        <i class="fa fa-user m-r-5"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Elizabeth C. Lao</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text p-r-20">
+                                                        <i class="fa fa-calendar m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;15, Feb 2017</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text">
+                                                        <i class="fa fa-tags m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;illustrated</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="columns is-multiline">
+                                        <div class="column is-4 ">
+
+                                            <a href="single-guides.html" class="image is-5by3">
+                                                <img src="./img/blog_image_7.png">
+                                            </a>
+                                            <div class="m-t-15">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">
+                                                    <a class="has-text-grey-dark" href="single-guides.html">Woven silk pyjamas exchanged for blue quartz. Brawny gods him.</a>
+                                                </p>
+                                                <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
+                                                    travelling salesman - and above it there hung a picture.
+                                                </p>
+                                            </div>
+                                            <div class="post-information m-t-20 has-text-centered">
+                                                <div class="blog-social-info p-b-10">
+                                                    <a class="knowledgebase-content-text m-r-15">
+                                                        <i class="fa fa-user m-r-5"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Thomas N. Perez</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text p-r-15">
+                                                        <i class="fa fa-calendar m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;03, Jan 2017</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text">
+                                                        <i class="fa fa-tags m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Transformed</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+
+                                            <a class="image is-5by3">
+                                                <img src="./img/blog_image_8.png">
+                                            </a>
+                                            <div class="m-t-15">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">
+                                                    <a class="has-text-grey-dark" href="">A Proper Human Room Although</a>
+                                                </p>
+                                                <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
+                                                    travelling salesman - and above it there hung a picture.
+                                                </p>
+                                            </div>
+                                            <div class="post-information m-t-20 has-text-centered">
+                                                <div class="blog-social-info p-b-10">
+                                                    <a class="knowledgebase-content-text m-r-20">
+                                                        <i class="fa fa-user m-r-5"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Jose M. Parker</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text p-r-20">
+                                                        <i class="fa fa-calendar m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;02, Aug 2017</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text">
+                                                        <i class="fa fa-tags m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Travelling</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+
+                                            <a class="image is-5by3">
+                                                <img src="./img/blog_image_9.png">
+                                            </a>
+                                            <div class="m-t-15">
+
+                                                <p class="has-text-weight-bold" style="font-size: 14px">
+                                                    <a class="has-text-grey-dark" href="">He Touched it he was Overcome</a>
+                                                </p>
+                                                <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
+                                                    travelling salesman - and above it there hung a picture.
+                                                </p>
+                                            </div>
+                                            <div class="post-information m-t-20 has-text-centered">
+                                                <div class="blog-social-info p-b-10">
+                                                    <a class="knowledgebase-content-text m-r-20">
+                                                        <i class="fa fa-user m-r-5"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Shelia A. Morin</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text p-r-20">
+                                                        <i class="fa fa-calendar m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;01, Mar 2017</span>
+                                                    </a>
+                                                    <a class="knowledgebase-content-text">
+                                                        <i class="fa fa-tags m-r-3"></i>
+                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;llustrated</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columns is-centered p-b-30">
+                <div class="column is-half">
+                    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+                        <ul class="pagination-list is-size-7">
+                            <li>
+                                <a class="pagination-link" aria-label="Goto page 1">1</a>
+                            </li>
+                            <li>
+                                <a class="pagination-link is-current" aria-label="Goto page 45">2</a>
+                            </li>
+                            <li>
+                                <a class="pagination-link" aria-label="Page 46" aria-current="page">3</a>
+                            </li>
+                            <li>
+                                <span class="pagination-ellipsis">&hellip;</span>
+                            </li>
+                            <li>
+                                <a class="pagination-link" aria-label="Goto page 86">12</a>
+                            </li>
+                            <li>
+                                <a class="is-size-7 has-text-grey-dark p-l-5" aria-label="Goto page 86">Last &nbsp;
+                                    <i class="fa fa-angle-double-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer-background">
+        <footer class="footer">
+            <div class="subflex">
+                <div class="footer-border">
+                    <h6 class="subtitle is-6 has-text-white">GalacticDesk</h6>
+                    <p class="subtext-footer">A collection of texttile samples lay spread out on the table - Samsa was a travelling salesman- and above
+                        it there hung a picture that he had recently cut out of an illustrated.
+                    </p>
+
+                </div>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-facebook-f"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a class="button btnfooter-logo">
+                    <i class="fa fa-skype"></i>
+                </a>
+            </div>
+            <div class="subflex">
+                <h6 class="subtitle is-6 has-text-white">Useful Links</h6>
+                <div class="columns">
+                    <div class="column">
+                        <p class="subtext-footer">
+                            <a>Privacy Policy</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Terms</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Support Center</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Knowledgebase</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Forums</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Authordesk</a>
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p class="subtext-footer">
+                            <a>Help</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Contact</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Latest News</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Video Tutorials</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>Home</a>
+                        </p>
+                        <p class="subtext-footer">
+                            <a>About us</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="subflex">
+                <div class="footer-border">
+                    <h6 class="subtitle is-6 has-text-white">Latest Blogs</h6>
+                    <p class="subtext-footer">When Gregor Samsa woke from trouble dreams, he found himself.
+                    </p>
+                    <p class="footer-date">24 Feb 2017</p>
+                </div>
+                <div style="padding-top: 20px;">
+                    <p class="subtext-footer">The bedding was hardly able to cover it and seemed ready to slide.
+                    </p>
+                    <p class="footer-date">17 Feb 2017</p>
+                </div>
+            </div>
+            <div style="flex-basis: 12%;">
+                <h6 class="subtitle is-6 has-text-white">NewsLetter</h6>
+                <p class="subtext-footer">A collection of textile samples lay spread out on the table.
+                </p>
+                <p class="control has-icons-right">
+                    <input class="input is-rounded" id="search-mail" type="email" placeholder="Enter your mail">
+
+                    <span class="icon is-small is-right">
+                        <i class="fa fa-chevron-right"></i>
+                    </span>
+                </p>
+            </div>
+
+        </footer>
+        <div id="footer-copyright">
+            <div class="container" style="padding-top: 8px;">
+                <div class="columns is-centered">
+                    <div class="column is-half has-text-centered">
+                        <p class="subtext-footer">Copyright ⓒ 2017. All Right Reserved.&nbsp;
+                            <span class="has-text-grey-light">AuthorDesk</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
