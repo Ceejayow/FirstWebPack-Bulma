@@ -7,7 +7,6 @@
     <title>Login Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
     <div class="container">
         <div class="columns is-centered">
@@ -22,7 +21,7 @@
                         <div class="navbar-end is-pulled-right">
                             <div class="navbar-item">
                                 <div class="buttons">
-                                    <a href="login.html" class="button is-rounded btn-navbar-color">
+                                    <a href="login.html" class="button is-rounded" id="btnSizeLogin">
                                         Login
                                     </a>
                                     <a href="register.html" class="button is-rounded" id="btnSizeSignUp">
@@ -38,7 +37,6 @@
     </div>
     <section class="navbarBackColor">
         <div class="container">
-
             <div class="columns is-centered">
                 <div class="column is-three-quarters p-t-0 p-b-0">
                     <nav role="navigation" aria-label="dropdown navigation">
@@ -91,7 +89,6 @@
                                 </a>
                             </div>
                         </div>
-
                     </nav>
                 </div>
             </div>
@@ -123,48 +120,51 @@
             </div>
         </div>
     </section>
-    <section class="m-b-90 p-t-75">
-        <div class="container">
+    <section class="m-b-90 p-t-60">
             <div class="columns is-centered">
                 <div class="column is-7">
                     <div class="columns" style="justify-content: flex-end;">
-                        <div class="column is-9">
+                        <div class="column is-8">
+                            <div class="hero is-small">
+                            <div class="hero-body">
                             <p class="has-text-black-ter is-size-8">
-                                <b>Big July earthquakes confound zany experimental.</b>
-                            </p>
-                            <hr style="width: 60px;">
-                            <p class="has-text-grey font-size-login-page">It showed a lady fitted fitted out with a fur hat and fur boa who sat upright. Raising a heavy
-                                fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to
-                                look out the window at the dull weather.
-                            </p>
-                            <div class="columns has-text-centered p-t-20">
-                                <div class="column is-half">
-                                    <img style="height: 75px;width: 75px;" src="./img/FreeCustomization.png">
-                                    <p class="has-text-grey-dark content-login-icon-text">
-                                        <b>Free Customization</b>
-                                    </p>
-                                    <img class="img-login-icon m-t-30" src="./img/VideoTutorials.png">
-                                    <p class="has-text-grey-dark content-login-icon-text">
-                                        <b>Video Tutorials</b>
-                                    </p>
-                                    <img class="img-login-icon m-t-30" src="./img/KnowledgeBase.png">
-                                    <p class="has-text-grey-dark content-login-icon-text">
-                                        <b>Knowledge Base</b>
-                                    </p>
+                                    <b>Big July earthquakes confound zany experimental.</b>
+                                </p>
+                                <hr style="width: 60px;">
+                                <p class="has-text-grey font-size-login-page">It showed a lady fitted fitted out with a fur hat and fur boa who sat upright. Raising a heavy
+                                    fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to
+                                    look out the window at the dull weather.
+                                </p>
+                                <div class="columns has-text-centered p-t-20">
+                                    <div class="column is-half">
+                                        <img style="height: 75px;width: 75px;" src="./img/FreeCustomization.png">
+                                        <p class="has-text-grey-dark content-login-icon-text">
+                                            <b>Free Customization</b>
+                                        </p>
+                                        <img class="img-login-icon m-t-30" src="./img/VideoTutorials.png">
+                                        <p class="has-text-grey-dark content-login-icon-text">
+                                            <b>Video Tutorials</b>
+                                        </p>
+                                        <img class="img-login-icon m-t-30" src="./img/KnowledgeBase.png">
+                                        <p class="has-text-grey-dark content-login-icon-text">
+                                            <b>Knowledge Base</b>
+                                        </p>
+                                    </div>
+                                    <div class="column">
+                                        <img style="height: 60px;width: 70px;" class="m-t-15" src="./img/CustomerSupport.png">
+                                        <p class="has-text-grey-dark content-login-icon-text">
+                                            <b>24/7 Customer Support</b>
+                                        </p>
+                                        <img class="img-login-icon m-t-30" src="./img/CleanAndNeat.png">
+                                        <p class="has-text-grey-dark content-login-icon-text">
+                                            <b>Clean & Neat Design</b>
+                                        </p>
+                                        <img class="img-login-icon m-t-30" src="./img/Forums.png">
+                                        <p class="has-text-grey-dark content-login-icon-text">
+                                            <b>Forums</b>
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="column">
-                                    <img style="height: 60px;width: 70px;" class="m-t-15" src="./img/CustomerSupport.png">
-                                    <p class="has-text-grey-dark content-login-icon-text">
-                                        <b>24/7 Customer Support</b>
-                                    </p>
-                                    <img class="img-login-icon m-t-30" src="./img/CleanAndNeat.png">
-                                    <p class="has-text-grey-dark content-login-icon-text">
-                                        <b>Clean & Neat Design</b>
-                                    </p>
-                                    <img class="img-login-icon m-t-30" src="./img/Forums.png">
-                                    <p class="has-text-grey-dark content-login-icon-text">
-                                        <b>Forums</b>
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -172,8 +172,8 @@
                 </div>
                 <div class="column">
                     <div class="columns">
-                        <div class="column is-8">
-                            <section class="card p-b-30" id="content-login-body-color">
+                        <div class="column is-7 p-t-40">
+                            <div class="card p-b-30" id="content-login-body-color">
                                 <div class="card-content has-text-centered">
                                     <p class="subtitle">
                                         <strong class="sub">Welcome Back!</strong>
@@ -227,12 +227,11 @@
                                             </div>
                                         </div>
                                     </div>
-                            </section>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
     </section>
     <div id="footer-background">
         <footer class="footer">
@@ -320,13 +319,11 @@
                 <p class="subtext-footer">A collection of textile samples lay spread out on the table.</p>
                 <p class="control has-icons-right ">
                     <input class="input is-rounded" id="search-mail" type="email" placeholder="Enter your mail">
-
                     <span class="icon is-small is-right">
                         <i class="fa fa-chevron-right"></i>
                     </span>
                 </p>
             </div>
-
         </footer>
         <div id="footer-copyright">
             <div class="container p-t-8">
@@ -339,8 +336,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </body>
-
 </html>
