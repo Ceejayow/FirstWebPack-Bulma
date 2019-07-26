@@ -3,23 +3,30 @@
     
 }
 
-.buttons {
+#btnSizeLogin {
+    background-color: #f37e49;
+    color: $NavNameColor;
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+    font-size: 11px;
+    font-weight: bold;
 
-    #btnSizeLogin {
-        border-radius: 50px;
-        height: 30px;
-        width: 100px;
-        font-size: 14px;
-        border: 1px solid red;
-
-    }
-
-    #btnSizeSignUp {
-        border-radius: 50px;
-        height: 30px;
-        width: 100px;
-        font-size: 13px;
-
-    }
-    
 }
+
+#btnSizeLogin:hover {
+    background-color: #209cee;
+    border: 1px solid red;
+    color: #fff;
+
+}
+
+#btnSizeSignUp {
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+    

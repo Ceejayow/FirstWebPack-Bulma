@@ -9,73 +9,99 @@
 </head>
 
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="container">
-            <div class="navbar-start is-pulled-left">
-                <a class="navbar-item" href="https://bulma.io">
-                    Galictic Desk
-                </a>
-            </div>
-            <div class="navbar-end is-pulled-right">
-                <div class="navbar-item">
-                    <div class="buttons">
-                        <a href="login.html" class="button is-info is-rounded" id="btnSizeLogin">
-                            Login
-                        </a>
-                        <a href="register.html" class="button is-rounded" id="btnSizeSignUp">
-                            Signup
-                        </a>
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-three-quarters">
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="container">
+                        <div class="navbar-start is-pulled-left">
+                            <a class="navbar-item" href="https://bulma.io">
+                                Galictic Desk
+                            </a>
+                        </div>
+                        <div class="navbar-end is-pulled-right">
+                            <div class="navbar-item">
+                                <div class="buttons">
+                                    <a href="login.html" class="button is-info is-rounded" id="btnSizeLogin">
+                                        Login
+                                    </a>
+                                    <a href="register.html" class="button is-rounded" id="btnSizeSignUp">
+                                        Signup
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
-    </nav>
-
-    <nav class="navbar navbarBackColor" role="navigation" aria-label="dropdown navigation">
+    </div>
+    <section class="navbarBackColor">
         <div class="container">
-            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                <span></span>
-                <span></span>
-                <span></span>
-            </span>
-            <div id="navbarMenuHeroA" class="navbar-menu">
-                <div class="navbar-start">
-                    <a href="index.html" class="navbar-item navName">
-                        Home
-                    </a>
-                    <a class="navbar-item navName">
-                        Themes
-                    </a>
-                    <a class="navbar-item navName">
-                        Support
-                    </a>
-                    <a href="knowledgebase.html" class="navbar-item navName">
-                        Knowledgebase
-                    </a>
-                    <a href="guides.html" class="navbar-item navName">
-                        Guides
-                    </a>
-                    <a href="blog.html" class="navbar-item navName">
-                        Blogs
-                    </a>
-                    <a href="contact.html" class="navbar-item navNameNoBorder">
-                        Contacts
-                    </a>
-                </div>
-                <div class="navbar-end">
-                    <a class="navbar-item navNameNoBorder">
-                        <i class="fa fa-search"></i>
-                    </a>
+            <div class="columns is-centered">
+                <div class="column is-three-quarters p-t-0 p-b-0">
+                    <nav class="" role="navigation" aria-label="dropdown navigation">
+                        <div class="container">
+                            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                            <div id="navbarMenuHeroA" class="navbar-menu">
+                                <div class="navbar-start">
+                                    <div class="nav-active-color nav-active">
+                                        <a href="index.html" class="navbar-item navName">
+                                            Home
+                                        </a>
+                                    </div>
+                                    <div class="nav-active-color">
+                                        <a class="navbar-item navName">
+                                            Themes
+                                        </a>
+                                    </div>
+                                    <div class="nav-active-color">
+                                        <a class="navbar-item navName">
+                                            Support
+                                        </a>
+                                    </div>
+                                    <div class="nav-active-color">
+                                        <a href="knowledgebase.html" class="navbar-item navName">
+                                            Knowledgebase
+                                        </a>
+                                    </div>
+                                    <div class="nav-active-color">
+                                        <a href="guides.html" class="navbar-item navName">
+                                            Guides
+                                        </a>
+                                    </div>
+                                    <div class="nav-active-color">
+                                        <a href="blog.html" class="navbar-item navName">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                    <div class="nav-active-color">
+                                        <a href="contact.html" class="navbar-item navNameNoBorder">
+                                            Contacts
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="navbar-end">
+                                    <a class="navbar-item navNameNoBorder">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
-    </nav>
-
-    <div class="columns">
+    </section>
+    <div class="columns p-t-12">
         <div class="column">
             <div class="columns" id="bannerLeft">
                 <div class="column is-half has-text-centered">
-                    <section class="hero is-medium">
+                    <div class="hero is-medium">
                         <div class="hero-body ">
                             <div>
                                 <a class="button btn-icon">
@@ -95,14 +121,14 @@
                                 </p>
                             </div>
                         </div>
-                    </section>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="column">
             <div class="columns" id="bannerRight">
                 <div class="column is-half has-text-centered flexStart">
-                    <section class="hero is-medium">
+                    <div class="hero is-medium">
                         <div class="hero-body">
                             <div>
                                 <a class="button btn-icon">
@@ -116,7 +142,7 @@
                                 <strong>View All Forums</strong>
                             </a>
                         </div>
-                    </section>
+                    </div>
                 </div>
             </div>
         </div>
@@ -278,7 +304,6 @@
                     <div class="columns" id="leftcomments">
                         <div class="column is-three-fifths">
                             <div>
-
                                 <p class="title is-4">
                                     What Customers Says
                                 </p>
@@ -335,8 +360,6 @@
                                     <span class="m-t-18 is-size-7">
                                         <b>It showed a lady fitted out with a fur hat?</b>
                                     </span>
-
-
                                 </li>
                                 <div class="accordion-content m-l-35 m-t-5" id="content-1">
                                     <p class="is-size-7">A collection of textile samples lay spread out on the table - Samsa was a travelling
@@ -351,8 +374,6 @@
                                     <span class="m-t-18 is-size-7">
                                         <b>Raising a heavy fur muff that covered the whole?</b>
                                     </span>
-
-
                                 </li>
                                 <div class="accordion-content m-l-35 m-t-5" id="content-2">
                                     <p class="is-size-7">A collection of textile samples lay spread out on the table - Samsa was a travelling
@@ -367,8 +388,6 @@
                                     <span class="m-t-18 is-size-7">
                                         <b>His many legs, pitifully thin compared with the size?</b>
                                     </span>
-
-
                                 </li>
                                 <div class="accordion-content m-l-35 m-t-5" id="content-3">
                                     <p class="is-size-7">A collection of textile samples lay spread out on the table - Samsa was a travelling
@@ -379,22 +398,15 @@
                                     <a href="#content-4" class="accordion-toggle button btn-dropdown">
                                         <i class="fa fa-caret-right"></i>
                                     </a>
-
                                     <span class="m-t-18 is-size-7">
                                         <b>He lay on his armour-like back, and if he lifted?</b>
                                     </span>
-
-
                                 </li>
                                 <div class="accordion-content m-l-35 m-t-5" id="content-4">
                                     <p class="is-size-7">A collection of textile samples lay spread out on the table - Samsa was a travelling
                                         salesman - and a picture that he had recently cut out of an illustrated magazine
                                         and household in a nice, gilded frame</p>
                                 </div>
-                                <!-- <label class="switch">
-                                        <input type="checkbox" checked>
-                                        <span class="slider round"></span>
-                                      </label> -->
                             </ul>
                         </div>
                     </div>
@@ -483,7 +495,7 @@
                     <p class="footer-date">17 Feb 2017</p>
                 </div>
             </div>
-            <div style="flex-basis: 12%;">
+            <div style="flex-basis: 11%;">
                 <h6 class="subtitle is-6 has-text-white">NewsLetter</h6>
                 <p class="subtext-footer">A collection of textile samples lay spread out on the table.
                 </p>
@@ -498,7 +510,7 @@
 
         </footer>
         <div id="footer-copyright">
-            <div class="container" style="padding-top: 8px;">
+            <div class="container p-t-8">
                 <div class="columns is-centered">
                     <div class="column is-half has-text-centered">
                         <p class="subtext-footer">Copyright ⓒ 2017. All Right Reserved.&nbsp

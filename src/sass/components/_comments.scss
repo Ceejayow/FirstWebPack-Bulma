@@ -57,13 +57,6 @@
 
 }
 
-.btn-dropdown.active {
-
-    background-color: #1da39a;
-
-}
-
-
 #suggestion_list ul {
     list-style-type: none;
 
@@ -116,8 +109,8 @@
 
 }
 
-.btn-knowledge-comment-post {
-    background-color: #f37e49;
+.btn-comment-post {
+    background-color: $BtnColorCommentPost;
     color: $NavNameColor;
     border-radius: 50px;
     height: 45px;

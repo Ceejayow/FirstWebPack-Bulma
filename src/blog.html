@@ -7,69 +7,93 @@
     <title>Blog Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="container">
-            <div class="navbar-start is-pulled-left">
-                <a class="navbar-item" href="https://bulma.io">
-                    AuthorDesk
-                </a>
-            </div>
-            <div class="navbar-end is-pulled-right">
-                <div class="navbar-item">
-                    <div class="buttons">
-                        <a href="login.html" class="button is-rounded btn-navbar-color">
-                            Login
-                        </a>
-                        <a href="register.html" class="button is-rounded" id="btnSizeSignUp">
-                            Signup
-                        </a>
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-three-quarters">
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="container">
+                        <div class="navbar-start is-pulled-left">
+                            <a class="navbar-item" href="https://bulma.io">
+                                AuthorDesk
+                            </a>
+                        </div>
+                        <div class="navbar-end is-pulled-right">
+                            <div class="navbar-item">
+                                <div class="buttons">
+                                    <a href="login.html" class="button is-rounded" id="btnSizeLogin">
+                                        Login
+                                    </a>
+                                    <a href="register.html" class="button is-rounded" id="btnSizeSignUp">
+                                        Signup
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
-    </nav>
-
-    <nav class="navbar navbarBackColor" role="navigation" aria-label="dropdown navigation">
+    </div>
+    <section class="navbarBackColor">
         <div class="container">
-            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                <span></span>
-                <span></span>
-                <span></span>
-            </span>
-            <div id="navbarMenuHeroA" class="navbar-menu">
-                <div class="navbar-start">
-                    <a href="index.html" class="navbar-item navName">
-                        Home
-                    </a>
-                    <a class="navbar-item navName">
-                        Themes
-                    </a>
-                    <a class="navbar-item navName">
-                        Support
-                    </a>
-                    <a href="knowledgebase.html" class="navbar-item navName">
-                        Knowledgebase
-                    </a>
-                    <a href="guides.html" class="navbar-item navName">
-                        Guides
-                    </a>
-                    <a href="blog.html" class="navbar-item navName">
-                        Blogs
-                    </a>
-                    <a href="contact.html" class="navbar-item navNameNoBorder">
-                        Contacts
-                    </a>
-                </div>
-                <div class="navbar-end">
-                    <a class="navbar-item navNameNoBorder">
-                        <i class="fa fa-search"></i>
-                    </a>
+            <div class="columns is-centered">
+                <div class="column is-three-quarters p-t-0 p-b-0">
+                    <nav role="navigation" aria-label="dropdown navigation">
+                        <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                        <div id="navbarMenuHeroA" class="navbar-menu">
+                            <div class="navbar-start">
+                                <div class="nav-active-color">
+                                    <a href="index.html" class="navbar-item navName">
+                                        Home
+                                    </a>
+                                </div>
+                                <div class="nav-active-color">
+                                    <a class="navbar-item navName">
+                                        Themes
+                                    </a>
+                                </div>
+                                <div class="nav-active-color">
+                                    <a class="navbar-item navName">
+                                        Support
+                                    </a>
+                                </div>
+                                <div class="nav-active-color">
+                                    <a href="knowledgebase.html" class="navbar-item navName">
+                                        Knowledgebase
+                                    </a>
+                                </div>
+                                <div class="nav-active-color">
+                                    <a href="guides.html" class="navbar-item navName">
+                                        Guides
+                                    </a>
+                                </div>
+                                <div class="nav-active-color nav-active">
+                                    <a href="blog.html" class="navbar-item navName">
+                                        Blogs
+                                    </a>
+                                </div>
+                                <div class="nav-active-color">
+                                    <a href="contact.html" class="navbar-item navNameNoBorder">
+                                        Contacts
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="navbar-end">
+                                <a class="navbar-item navNameNoBorder">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
-    </nav>
+    </section>
     <section class="hero" id="login-banner">
         <div class="hero-body">
             <div class="container">
@@ -105,14 +129,12 @@
                             <div class="">
                                 <div class="content">
                                     <div class="columns">
-                                        <div class="column is-4 ">
-
+                                        <div class="column is-4">
                                             <a href="single-blog.html" class="image is-5by3">
                                                 <img src="./img/blog_image_1.png">
                                             </a>
                                             <div class="m-t-15">
-
-                                                <p class="has-text-weight-bold" style="font-size: 14px">
+                                                <p class="has-text-weight-bold text-size-s">
                                                     <a class="has-text-grey-dark" href="single-blog.html">An illustrated Magazine and House</a>
                                                 </p>
                                                 <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
@@ -123,30 +145,27 @@
                                                 <div class="blog-social-info p-b-10">
                                                     <a class="knowledgebase-content-text m-r-20">
                                                         <i class="fa fa-user m-r-5"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Shown D. Romo</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;Shown D. Romo</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text p-r-20">
                                                         <i class="fa fa-calendar m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;27, Feb 2017</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;27, Feb 2017</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text">
                                                         <i class="fa fa-tags m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Installation</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;Installation</span>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="column">
-
                                             <a class="image is-5by3">
                                                 <img src="./img/blog_image_2.png">
                                             </a>
                                             <div class="m-t-15">
-
-                                                <p class="has-text-weight-bold" style="font-size: 14px">
-                                                    <a class="has-text-grey-dark" href="">Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra.</a>
+                                                <p class="has-text-weight-bold text-size-s">
+                                                    <a class="has-text-grey-dark" href="single-blog.html">Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra.</a>
                                                 </p>
-
                                                 <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
                                                     travelling salesman - and above it there hung a picture.
                                                 </p>
@@ -155,28 +174,27 @@
                                                 <div class="blog-social-info p-b-10">
                                                     <a class="knowledgebase-content-text m-r-20">
                                                         <i class="fa fa-user m-r-5"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Chauffina Carr</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;Chauffina Carr</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text p-r-20">
                                                         <i class="fa fa-calendar m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;12, Apr 2017</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;12, Apr 2017</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text">
                                                         <i class="fa fa-tags m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;indescrbable</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;indescrbable</span>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="column">
-
                                             <a class="image is-5by3">
                                                 <img src="./img/blog_image_3.png">
                                             </a>
                                             <div class="m-t-15">
 
-                                                <p class="has-text-weight-bold" style="font-size: 14px">
-                                                    <a class="has-text-grey-dark" href="">Incapable of Drawing a Single Stroke</a>
+                                                <p class="has-text-weight-bold text-size-s">
+                                                    <a class="has-text-grey-dark" href="single-blog.html">Incapable of Drawing a Single Stroke</a>
                                                 </p>
                                                 <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
                                                     travelling salesman - and above it there hung a picture.
@@ -186,15 +204,15 @@
                                                 <div class="blog-social-info p-b-10">
                                                     <a class="knowledgebase-content-text m-r-20">
                                                         <i class="fa fa-user m-r-5"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Timothy J.</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;Timothy J.</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text p-r-20">
                                                         <i class="fa fa-calendar m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;05, June 2017</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;05, June 2017</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text">
                                                         <i class="fa fa-tags m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;familiar</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;familiar</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -202,14 +220,12 @@
                                     </div>
                                     <div class="columns">
                                         <div class="column is-4 ">
-
                                             <a href="single-guides.html" class="image is-5by3">
                                                 <img src="./img/blog_image_4.png">
                                             </a>
                                             <div class="m-t-15">
-
-                                                <p class="has-text-weight-bold" style="font-size: 14px">
-                                                    <a class="has-text-grey-dark" href="single-guides.html">Lay Peacefully Between</a>
+                                                <p class="has-text-weight-bold text-size-s">
+                                                    <a class="has-text-grey-dark" href="single-blog.html">Lay Peacefully Between</a>
                                                 </p>
                                                 <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
                                                     travelling salesman - and above it there hung a picture.
@@ -219,28 +235,27 @@
                                                 <div class="blog-social-info p-b-10">
                                                     <a class="knowledgebase-content-text m-r-20">
                                                         <i class="fa fa-user m-r-5"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;B. Blackbum</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;B. Blackbum</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text p-r-20">
                                                         <i class="fa fa-calendar m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;05, July 2017</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;05, July 2017</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text">
                                                         <i class="fa fa-tags m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;magazine</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;magazine</span>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="column">
-
                                             <a class="image is-5by3">
                                                 <img src="./img/blog_image_5.png">
                                             </a>
                                             <div class="m-t-15">
 
-                                                <p class="has-text-weight-bold" style="font-size: 14px">
-                                                    <a class="has-text-grey-dark" href="">Slightly Domed and Divided</a>
+                                                <p class="has-text-weight-bold text-size-s">
+                                                    <a class="has-text-grey-dark" href="single-blog.html">Slightly Domed and Divided</a>
                                                 </p>
                                                 <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
                                                     travelling salesman - and above it there hung a picture.
@@ -250,28 +265,26 @@
                                                 <div class="blog-social-info p-b-10">
                                                     <a class="knowledgebase-content-text m-r-20">
                                                         <i class="fa fa-user m-r-5"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Carlo S. Kurtz</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;Carlo S. Kurtz</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text p-r-20">
                                                         <i class="fa fa-calendar m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;07, Mar 2017</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;07, Mar 2017</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text">
                                                         <i class="fa fa-tags m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;indescrbable</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;indescrbable</span>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="column">
-
                                             <a class="image is-5by3">
                                                 <img src="./img/blog_image_6.png">
                                             </a>
                                             <div class="m-t-15">
-
-                                                <p class="has-text-weight-bold" style="font-size: 14px">
-                                                    <a class="has-text-grey-dark" href="">Crazy Fredericka bought many very exquisite opal jewels, Sixty zippers.</a>
+                                                <p class="has-text-weight-bold text-size-s">
+                                                    <a class="has-text-grey-dark" href="single-blog.html">Crazy Fredericka bought many very exquisite opal jewels, Sixty zippers.</a>
                                                 </p>
                                                 <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
                                                     travelling salesman - and above it there hung a picture.
@@ -281,15 +294,15 @@
                                                 <div class="blog-social-info p-b-10">
                                                     <a class="knowledgebase-content-text m-r-20">
                                                         <i class="fa fa-user m-r-5"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Elizabeth C. Lao</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;Elizabeth C. Lao</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text p-r-20">
                                                         <i class="fa fa-calendar m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;15, Feb 2017</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;15, Feb 2017</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text">
                                                         <i class="fa fa-tags m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;illustrated</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;illustrated</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -297,14 +310,12 @@
                                     </div>
                                     <div class="columns is-multiline">
                                         <div class="column is-4 ">
-
                                             <a href="single-guides.html" class="image is-5by3">
                                                 <img src="./img/blog_image_7.png">
                                             </a>
                                             <div class="m-t-15">
-
-                                                <p class="has-text-weight-bold" style="font-size: 14px">
-                                                    <a class="has-text-grey-dark" href="single-guides.html">Woven silk pyjamas exchanged for blue quartz. Brawny gods him.</a>
+                                                <p class="has-text-weight-bold text-size-s">
+                                                    <a class="has-text-grey-dark" href="single-blog.html">Woven silk pyjamas exchanged for blue quartz. Brawny gods him.</a>
                                                 </p>
                                                 <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
                                                     travelling salesman - and above it there hung a picture.
@@ -314,28 +325,26 @@
                                                 <div class="blog-social-info p-b-10">
                                                     <a class="knowledgebase-content-text m-r-15">
                                                         <i class="fa fa-user m-r-5"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Thomas N. Perez</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;Thomas N. Perez</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text p-r-15">
                                                         <i class="fa fa-calendar m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;03, Jan 2017</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;03, Jan 2017</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text">
                                                         <i class="fa fa-tags m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Transformed</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;Transformed</span>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="column">
-
                                             <a class="image is-5by3">
                                                 <img src="./img/blog_image_8.png">
                                             </a>
                                             <div class="m-t-15">
-
-                                                <p class="has-text-weight-bold" style="font-size: 14px">
-                                                    <a class="has-text-grey-dark" href="">A Proper Human Room Although</a>
+                                                <p class="has-text-weight-bold text-size-s">
+                                                    <a class="has-text-grey-dark" href="single-blog.html">A Proper Human Room Although</a>
                                                 </p>
                                                 <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
                                                     travelling salesman - and above it there hung a picture.
@@ -345,28 +354,27 @@
                                                 <div class="blog-social-info p-b-10">
                                                     <a class="knowledgebase-content-text m-r-20">
                                                         <i class="fa fa-user m-r-5"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Jose M. Parker</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;Jose M. Parker</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text p-r-20">
                                                         <i class="fa fa-calendar m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;02, Aug 2017</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;02, Aug 2017</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text">
                                                         <i class="fa fa-tags m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Travelling</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;Travelling</span>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="column">
-
                                             <a class="image is-5by3">
                                                 <img src="./img/blog_image_9.png">
                                             </a>
                                             <div class="m-t-15">
 
-                                                <p class="has-text-weight-bold" style="font-size: 14px">
-                                                    <a class="has-text-grey-dark" href="">He Touched it he was Overcome</a>
+                                                <p class="has-text-weight-bold text-size-s">
+                                                    <a class="has-text-grey-dark" href="single-blog.html">He Touched it he was Overcome</a>
                                                 </p>
                                                 <p class="knowledgebase-content-text has-text-grey">A collection of textile samples lay spread out on the table - Samsa was a
                                                     travelling salesman - and above it there hung a picture.
@@ -376,15 +384,15 @@
                                                 <div class="blog-social-info p-b-10">
                                                     <a class="knowledgebase-content-text m-r-20">
                                                         <i class="fa fa-user m-r-5"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;Shelia A. Morin</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;Shelia A. Morin</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text p-r-20">
                                                         <i class="fa fa-calendar m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;01, Mar 2017</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;01, Mar 2017</span>
                                                     </a>
                                                     <a class="knowledgebase-content-text">
                                                         <i class="fa fa-tags m-r-3"></i>
-                                                        <span class="knowledgebase-icon-color icon-text">&nbsp;llustrated</span>
+                                                        <span class="knowledgebase-text-icon-color icon-text">&nbsp;llustrated</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -392,10 +400,8 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="columns is-centered p-b-30">
@@ -403,19 +409,19 @@
                     <nav class="pagination is-centered" role="navigation" aria-label="pagination">
                         <ul class="pagination-list is-size-7">
                             <li>
-                                <a class="pagination-link" aria-label="Goto page 1">1</a>
+                                <a class="pagination-link pagination-bg-color" aria-label="Goto page 1">1</a>
                             </li>
                             <li>
                                 <a class="pagination-link is-current" aria-label="Goto page 45">2</a>
                             </li>
                             <li>
-                                <a class="pagination-link" aria-label="Page 46" aria-current="page">3</a>
+                                <a class="pagination-link pagination-bg-color" aria-label="Page 46" aria-current="page">3</a>
                             </li>
                             <li>
                                 <span class="pagination-ellipsis">&hellip;</span>
                             </li>
                             <li>
-                                <a class="pagination-link" aria-label="Goto page 86">12</a>
+                                <a class="pagination-link pagination-bg-color" aria-label="Goto page 86">12</a>
                             </li>
                             <li>
                                 <a class="is-size-7 has-text-grey-dark p-l-5" aria-label="Goto page 86">Last &nbsp;
@@ -432,11 +438,10 @@
         <footer class="footer">
             <div class="subflex">
                 <div class="footer-border">
-                    <h6 class="subtitle is-6 has-text-white">GalacticDesk</h6>
+                    <h6 class="subtitle is-6 has-text-white">AuthorDesk</h6>
                     <p class="subtext-footer">A collection of texttile samples lay spread out on the table - Samsa was a travelling salesman- and above
                         it there hung a picture that he had recently cut out of an illustrated.
                     </p>
-
                 </div>
                 <a class="button btnfooter-logo">
                     <i class="fa fa-facebook-f"></i>
@@ -503,13 +508,13 @@
                     </p>
                     <p class="footer-date">24 Feb 2017</p>
                 </div>
-                <div style="padding-top: 20px;">
+                <div class="p-t-20">
                     <p class="subtext-footer">The bedding was hardly able to cover it and seemed ready to slide.
                     </p>
                     <p class="footer-date">17 Feb 2017</p>
                 </div>
             </div>
-            <div style="flex-basis: 12%;">
+            <div style="flex-basis: 11%;">
                 <h6 class="subtitle is-6 has-text-white">NewsLetter</h6>
                 <p class="subtext-footer">A collection of textile samples lay spread out on the table.
                 </p>
@@ -521,10 +526,9 @@
                     </span>
                 </p>
             </div>
-
         </footer>
         <div id="footer-copyright">
-            <div class="container" style="padding-top: 8px;">
+            <div class="container p-t-8">
                 <div class="columns is-centered">
                     <div class="column is-half has-text-centered">
                         <p class="subtext-footer">Copyright ⓒ 2017. All Right Reserved.&nbsp;
@@ -534,8 +538,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </body>
-
 </html>

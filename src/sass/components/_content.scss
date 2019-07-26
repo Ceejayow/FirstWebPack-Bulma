@@ -73,7 +73,6 @@
     position: relative;
     display: inline-block;
     color: $PureBlack;
-
     padding: 0 .5em;
     line-height: 1em;
     // this is really the only tricky part, you need to specify the background color of the container element...
@@ -101,12 +100,12 @@
 }
 
 .fb-background-color {
-    background-color: #46639d;
+    background-color: $FbLoginBtnColor;
 
 }
 
 .google-background-color {
-    background-color: #d6492e;
+    background-color: $GoogleLoginBtnColor;
 }
 
 
@@ -130,15 +129,15 @@
 .knowledgebase-articles {
     background-color: $ThemesBackgroundColor;
     height: 40px;
-    border-left: 2px solid #1ea69a;
+    border-left: 2px solid $KnowledgebaseArticleBorderLeftColor;
     margin-top: 8px;
     padding-top: 8px;
 
 
 }
 
-.knowledgebase-icon-color {
-    color: #1caa90;
+.knowledgebase-text-icon-color {
+    color: $KnowledgebaseIconColor;
 
 }
 
@@ -170,7 +169,7 @@
     padding: 5px 0px 5px 0px;
 
     .fa {
-        color: #989898;
+        color: $SingleKnowledgebaseIconColor;
 
     }
 
@@ -186,6 +185,22 @@
 
 }
 
+.text-size-s {
+    font-size: 14px;
+
+}
+
+.text-size-xs {
+    font-size: 11px;
+
+}
+
+.img-size-s {
+    height: 80px;
+    width: 95px;
+
+}
+
 .bg-video-time {
     background-color: #000000;
     color: #fff;
@@ -197,7 +212,7 @@
 }
 
 .video-guide-title {
-    background-color: #f37e49;
+    background-color: $VideoGuideBackgroundColorTitle;
     padding: 15px 20px 15px 20px;
 
     > h2{
@@ -315,7 +330,7 @@
 }
 
 .icon-circle {
-    color: #1ea69a;
+    color: $SingleBlogCategoryIconColor;
 
 }
 
@@ -357,3 +372,14 @@
     }
 
 }
+
+.pagination {
+
+    .pagination-bg-color:hover {
+        background-color: $PaginationBgColorHover;
+        color: #fff;
+    
+    }
+
+}
+

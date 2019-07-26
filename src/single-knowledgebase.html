@@ -7,69 +7,93 @@
     <title>Login Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="container">
-            <div class="navbar-start is-pulled-left">
-                <a class="navbar-item" href="https://bulma.io">
-                    AuthorDesk
-                </a>
-            </div>
-            <div class="navbar-end is-pulled-right">
-                <div class="navbar-item">
-                    <div class="buttons">
-                        <a href="login.html" class="button is-rounded btn-navbar-color">
-                            Login
-                        </a>
-                        <a href="register.html" class="button is-rounded" id="btnSizeSignUp">
-                            Signup
-                        </a>
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-three-quarters">
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="container">
+                        <div class="navbar-start is-pulled-left">
+                            <a class="navbar-item" href="https://bulma.io">
+                                AuthorDesk
+                            </a>
+                        </div>
+                        <div class="navbar-end is-pulled-right">
+                            <div class="navbar-item">
+                                <div class="buttons">
+                                    <a href="login.html" class="button is-rounded btn-navbar-color">
+                                        Login
+                                    </a>
+                                    <a href="register.html" class="button is-rounded" id="btnSizeSignUp">
+                                        Signup
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
-    </nav>
-
-    <nav class="navbar navbarBackColor" role="navigation" aria-label="dropdown navigation">
+    </div>
+    <section class="navbarBackColor">
         <div class="container">
-            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                <span></span>
-                <span></span>
-                <span></span>
-            </span>
-            <div id="navbarMenuHeroA" class="navbar-menu">
-                <div class="navbar-start">
-                    <a href="index.html" class="navbar-item navName">
-                        Home
-                    </a>
-                    <a class="navbar-item navName">
-                        Themes
-                    </a>
-                    <a class="navbar-item navName">
-                        Support
-                    </a>
-                    <a href="knowledgebase.html" class="navbar-item navName">
-                        Knowledgebase
-                    </a>
-                    <a href="guides.html" class="navbar-item navName">
-                        Guides
-                    </a>
-                    <a href="blog.html" class="navbar-item navName">
-                        Blogs
-                    </a>
-                    <a href="contact.html" class="navbar-item navNameNoBorder">
-                        Contacts
-                    </a>
-                </div>
-                <div class="navbar-end">
-                    <a class="navbar-item navNameNoBorder">
-                        <i class="fa fa-search"></i>
-                    </a>
+            <div class="columns is-centered">
+                <div class="column is-three-quarters p-t-0 p-b-0">
+                    <nav role="navigation" aria-label="dropdown navigation">
+                        <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                        <div id="navbarMenuHeroA" class="navbar-menu">
+                            <div class="navbar-start">
+                                <div class="nav-active-color">
+                                    <a href="index.html" class="navbar-item navName">
+                                        Home
+                                    </a>
+                                </div>
+                                <div class="nav-active-color">
+                                    <a class="navbar-item navName">
+                                        Themes
+                                    </a>
+                                </div>
+                                <div class="nav-active-color">
+                                    <a class="navbar-item navName">
+                                        Support
+                                    </a>
+                                </div>
+                                <div class="nav-active-color nav-active">
+                                    <a href="knowledgebase.html" class="navbar-item navName">
+                                        Knowledgebase
+                                    </a>
+                                </div>
+                                <div class="nav-active-color">
+                                    <a href="guides.html" class="navbar-item navName">
+                                        Guides
+                                    </a>
+                                </div>
+                                <div class="nav-active-color">
+                                    <a href="blog.html" class="navbar-item navName">
+                                        Blogs
+                                    </a>
+                                </div>
+                                <div class="nav-active-color">
+                                    <a href="contact.html" class="navbar-item navNameNoBorder">
+                                        Contacts
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="navbar-end">
+                                <a class="navbar-item navNameNoBorder">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
-    </nav>
+    </section>
     <section class="hero" id="login-banner">
         <div class="hero-body">
             <div class="container">
@@ -110,7 +134,7 @@
                             <p class="knowledgebase-content-text has-text-grey-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae sem quis neque aliquam euismod
                                 vitae ut justo. Vivamus nec tortor eu mauris elementum placerat id in est:</p>
                             <div class="p-t-20 p-b-20">
-                                <span class="icon knowledgebase-icon-color is-pulled-left">
+                                <span class="icon knowledgebase-text-icon-color is-pulled-left">
                                     <i class="fa fa-chevron-circle-right is-size-7"></i>
                                 </span>
                                 <p class="knowledgebase-content-text has-text-grey-dark p-t-4">
@@ -118,7 +142,7 @@
                                     elit. Cras vitae sem quis neque aliquam euismod vitae ut justo. Vivamus nec tortor eu
                                     mauris elementum placerat id in est.
                                 </p>
-                                <span class="icon knowledgebase-icon-color is-pulled-left">
+                                <span class="icon knowledgebase-text-icon-color is-pulled-left">
                                     <i class="fa fa-chevron-circle-right is-size-7"></i>
                                 </span>
                                 <p class="knowledgebase-content-text has-text-grey-dark p-t-4">
@@ -137,13 +161,11 @@
                                 euismod vitae ut justo. Vivamus nec tortor eu mauris elementum placerat id in est. Phasellus
                                 eleifend vestibulum tortor in ornare. Vestibulum lobortis bibendum purus.
                             </p>
-
                             <div class="m-t-20" id="bg-color-div">
                                 <p class="knowledgebase-content-text">Note: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae sem quis neque
                                     aliquam euismod vitae ut justo. Vivamus nec tortor eu mauris elementum placerat id in
                                     est. Phasellus eleifend vestibulum.</p>
                             </div>
-
                             <p class="knowledgebase-content-text has-text-grey-dark p-t-20">
                                 <span class="has-text-weight-bold">IMPORTANT!!!&nbsp;</span>After theme installation, at the top you have a box with information
                                 about required and optional plugins. To install them and activate, please navigate to Appearance
@@ -154,14 +176,11 @@
                                 (required) and
                                 <span class="has-text-weight-bold">&nbsp;Visual Composer&nbsp;</span> (required).
                             </p>
-
                             <figure class="image is-2by1 m-t-40">
                                 <img src="./img/howtoinstallwp.png">
                             </figure>
-
                             <p class="knowledgebase-content-text has-text-weight-bold m-t-30 has-text-black">1. Image
                             </p>
-
                             <p class="knowledgebase-content-text has-text-grey-dark p-t-20">If you choose banner type as image, then you get depend options are like:
                                 <span class="has-text-weight-bold has-text-black">&nbsp;Banner Type | Image</span>.
                                 <br>
@@ -170,10 +189,8 @@
                                 <br>
                                 <br> Example : Single Image Banner
                             </p>
-
                             <p class="knowledgebase-content-text has-text-weight-bold m-t-30 has-text-black">2. Special Banner
                             </p>
-
                             <p class="knowledgebase-content-text has-text-grey-dark p-t-20">
                                 If you choose banner type as special banner, then you get depend option are like:
                                 <span class="has-text-weight-bold has-text-black">&nbsp;Banner Type | Special Banner & Banner Type | Special Banner | Image
@@ -190,27 +207,26 @@
                                     <br> Special Banner Type 2
                                     <br> Special Banner Type 3</p>
                             </div>
-
                             <div class="post-information m-t-20">
                                 <a class="knowledgebase-content-text m-r-25">
                                     <i class="fa fa-user is-size-7 m-r-5"></i>
-                                    <span class="knowledgebase-icon-color">&nbsp;Chauffina Carr</span>
+                                    <span class="knowledgebase-text-icon-color">&nbsp;Chauffina Carr</span>
                                 </a>
                                 <a class="knowledgebase-content-text p-r-25">
                                     <i class="fa fa-calendar is-size-7 m-r-5"></i>
-                                    <span class="knowledgebase-icon-color">&nbsp;27, Feb 2017</span>
+                                    <span class="knowledgebase-text-icon-color">&nbsp;27, Feb 2017</span>
                                 </a>
                                 <a class="knowledgebase-content-text p-r-25">
                                     <i class="fa fa-tags is-size-7 m-r-5"></i>
-                                    <span class="knowledgebase-icon-color">&nbsp;Installation, WordPress</span>
+                                    <span class="knowledgebase-text-icon-color">&nbsp;Installation, WordPress</span>
                                 </a>
-                                <a class="knowledgebase-icon-color knowledgebase-content-text m-r-25">
+                                <a class="knowledgebase-text-icon-color knowledgebase-content-text m-r-25">
                                     <i class="fa fa-thumbs-up is-size-7 m-r-5"></i>
-                                    <span class="knowledgebase-icon-color">&nbsp;344</span>
+                                    <span class="knowledgebase-text-icon-color">&nbsp;344</span>
                                 </a>
-                                <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                <a class="knowledgebase-text-icon-color knowledgebase-content-text">
                                     <i class="fa fa-comment is-size-7 m-r-5"></i>
-                                    <span class="knowledgebase-icon-color">&nbsp;18</span>
+                                    <span class="knowledgebase-text-icon-color">&nbsp;18</span>
                                 </a>
                             </div>
                             <div class="post-information p-t-20 p-b-20">
@@ -267,7 +283,6 @@
                                 <p class="is-size-6 has-text-weight-bold has-text-black m-t-50 m-b-20">
                                     Comments (18)
                                 </p>
-
                             </div>
                             <div class="post-information">
                                 <div class="card media-background is-shadowless m-t-20">
@@ -283,7 +298,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas
                                             non massa sem. Etiam finibus odio quis feugiat facilisis.
                                         </p>
-                                        <a class="knowledgebase-content-text knowledgebase-icon-color is-pulled-right p-r-30">Reply</a>
+                                        <a class="knowledgebase-content-text knowledgebase-text-icon-color is-pulled-right p-r-30">Reply</a>
                                     </div>
                                 </div>
                             </div>
@@ -299,12 +314,12 @@
                                     <p class="knowledgebase-content-text has-text-grey p-t-10">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
                                     </p>
-                                    <a class="knowledgebase-content-text knowledgebase-icon-color is-pulled-right p-r-30">Reply</a>
+                                    <a class="knowledgebase-content-text knowledgebase-text-icon-color is-pulled-right p-r-30">Reply</a>
                                 </div>
                                 <div class="content p-b-10 p-l-40">
                                     <p class="knowledgebase-content-text has-text-grey-light">
                                         <span class="is-size-7 has-text-weight-bold has-text-black">Girth Wiedenbauer -&nbsp;</span>
-                                        <span class="knowledgebase-icon-color" style="font-size: 10px;">(AuthorDesk Staff)</span>
+                                        <span class="knowledgebase-text-icon-color" style="font-size: 10px;">(AuthorDesk Staff)</span>
                                         <br> 14 days ago
                                     </p>
                                     <div class="image is-64x64 is-pulled-left m-r-10">
@@ -314,10 +329,9 @@
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas
                                         non massa sem. Etiam finibus odio quis feugiat facilisis.
                                     </p>
-                                    <a class="knowledgebase-content-text knowledgebase-icon-color is-pulled-right p-r-30">Reply</a>
+                                    <a class="knowledgebase-content-text knowledgebase-text-icon-color is-pulled-right p-r-30">Reply</a>
                                 </div>
                             </div>
-
                             <div class="m-t-50">
                                 <p class="is-size-6 has-text-weight-bold has-text-black m-b-20">
                                     Write Your Comment?
@@ -325,7 +339,6 @@
                                 <div class="post-information p-t-30">
                                     <div class="columns">
                                         <div class="column is-three-quarters">
-
                                             <div class="field">
                                                 <div class="control has-icons-left has-icons-right">
                                                     <input class="input is-shadowless" type="text" placeholder="Name">
@@ -373,18 +386,18 @@
                                     <div class="content m-b-3">
                                         <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">It showed a lady fitted out with a fur hat.</a>
                                         <div>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text m-r-10">
                                                 <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 247</a>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text">
                                                 <i class="fa fa-comment is-size-7 m-r-5"></i> 7</a>
                                         </div>
                                     </div>
                                     <div class="content m-b-3">
                                         <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">Raising a heavy fur muff that covered whole.</a>
                                         <div>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text m-r-10">
                                                 <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 128</a>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text">
                                                 <i class="fa fa-comment is-size-7 m-r-5"></i> 18</a>
                                         </div>
 
@@ -392,18 +405,18 @@
                                     <div class="content m-b-3">
                                         <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">Gregor then turned to look out the window.</a>
                                         <div>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text m-r-10">
                                                 <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 156</a>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text">
                                                 <i class="fa fa-comment is-size-7 m-r-5"></i> 23</a>
                                         </div>
                                     </div>
                                     <div class="content m-b-0">
                                         <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">The bedding was hardly able to cover it.</a>
                                         <div>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text m-r-10">
                                                 <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 223</a>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text">
                                                 <i class="fa fa-comment is-size-7 m-r-5"></i> 12</a>
                                         </div>
                                     </div>
@@ -470,18 +483,18 @@
                                     <div class="content m-b-3">
                                         <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">The bedding was it and seemed ready.</a>
                                         <div>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text m-r-10">
                                                 <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 355</a>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text">
                                                 <i class="fa fa-comment is-size-7 m-r-5"></i> 18</a>
                                         </div>
                                     </div>
                                     <div class="content m-b-3">
                                         <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">Pitifully thin compared with the size.</a>
                                         <div>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text m-r-10">
                                                 <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 355</a>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text">
                                                 <i class="fa fa-comment is-size-7 m-r-5"></i> 18</a>
                                         </div>
 
@@ -489,18 +502,18 @@
                                     <div class="content m-b-3">
                                         <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">The bedding was it and seemed ready.</a>
                                         <div>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text m-r-10">
                                                 <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 355</a>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text">
                                                 <i class="fa fa-comment is-size-7 m-r-5"></i> 18</a>
                                         </div>
                                     </div>
                                     <div class="content m-b-0">
                                         <a class="knowledgebase-content-text m-b-0 has-text-grey-dark">Pitifully thin compared with the size.</a>
                                         <div>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text m-r-10">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text m-r-10">
                                                 <i class="fa fa-thumbs-up is-size-7 m-r-5"></i> 355</a>
-                                            <a class="knowledgebase-icon-color knowledgebase-content-text">
+                                            <a class="knowledgebase-text-icon-color knowledgebase-content-text">
                                                 <i class="fa fa-comment is-size-7 m-r-5"></i> 18</a>
                                         </div>
                                     </div>
@@ -533,11 +546,10 @@
         <footer class="footer">
             <div class="subflex">
                 <div class="footer-border">
-                    <h6 class="subtitle is-6 has-text-white">GalacticDesk</h6>
+                    <h6 class="subtitle is-6 has-text-white">AuthorDesk</h6>
                     <p class="subtext-footer">A collection of texttile samples lay spread out on the table - Samsa was a travelling salesman- and above
                         it there hung a picture that he had recently cut out of an illustrated.
                     </p>
-
                 </div>
                 <a class="button btnfooter-logo">
                     <i class="fa fa-facebook-f"></i>
@@ -622,10 +634,9 @@
                     </span>
                 </p>
             </div>
-
         </footer>
         <div id="footer-copyright">
-            <div class="container" style="padding-top: 8px;">
+            <div class="container p-t-8">
                 <div class="columns is-centered">
                     <div class="column is-half has-text-centered">
                         <p class="subtext-footer">Copyright ⓒ 2017. All Right Reserved.&nbsp;
